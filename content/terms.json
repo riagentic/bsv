@@ -1,0 +1,2094 @@
+[
+  {
+    "key": "adonai",
+    "kind": "divine",
+    "src": "אֲדֹנָי · κύριος",
+    "en": {
+      "orig": "Adonai",
+      "trad": "Lord"
+    },
+    "cz": {
+      "orig": "Adonaj",
+      "trad": "Pán"
+    },
+    "leak": {
+      "en": [
+        "Adonai"
+      ],
+      "cz": [
+        "Adonaj"
+      ]
+    },
+    "note": {
+      "en": "\"My Lord\", title of God read aloud in place of YHWH.",
+      "cz": "„Můj Pán“, titul Boha čtený místo JHVH."
+    }
+  },
+  {
+    "key": "el",
+    "kind": "divine",
+    "src": "אֵל",
+    "en": {
+      "orig": "El",
+      "trad": "God"
+    },
+    "cz": {
+      "orig": "El",
+      "trad": "Bůh"
+    },
+    "leak": {
+      "en": [],
+      "cz": []
+    },
+    "note": {
+      "en": "Short Hebrew word for God, \"the Mighty One\".",
+      "cz": "Krátké hebrejské slovo pro Boha, „Mocný“."
+    }
+  },
+  {
+    "key": "elohim",
+    "kind": "divine",
+    "src": "אֱלֹהִים · θεός",
+    "en": {
+      "orig": "Elohim",
+      "trad": "God"
+    },
+    "cz": {
+      "orig": "Elohim",
+      "trad": "Bůh"
+    },
+    "leak": {
+      "en": [
+        "Elohim",
+        "God"
+      ],
+      "cz": [
+        "Elohim",
+        "Bůh",
+        "Boh",
+        "Bož"
+      ]
+    },
+    "note": {
+      "en": "The ordinary Hebrew word for God.",
+      "cz": "Běžné hebrejské slovo pro Boha."
+    }
+  },
+  {
+    "key": "mashiach",
+    "kind": "divine",
+    "src": "מָשִׁיחַ · Χριστός",
+    "en": {
+      "orig": "Mashiach",
+      "trad": "Christ"
+    },
+    "cz": {
+      "orig": "Mašiach",
+      "trad": "Kristus"
+    },
+    "leak": {
+      "en": [
+        "Mashiach",
+        "Christ",
+        "Messiah"
+      ],
+      "cz": [
+        "Mašiach",
+        "Mashiach",
+        "Krist",
+        "Mesiáš"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"anointed one\"; Greek Christos.",
+      "cz": "Hebrejsky „pomazaný“; řecky Christos."
+    }
+  },
+  {
+    "key": "ruach-haqodesh",
+    "kind": "divine",
+    "src": "רוּחַ הַקֹּדֶשׁ · πνεῦμα ἅγιον",
+    "en": {
+      "orig": "Ruach HaQodesh",
+      "trad": "Holy Spirit"
+    },
+    "cz": {
+      "orig": "Ruach HaKodeš",
+      "trad": "Duch svatý"
+    },
+    "leak": {
+      "en": [
+        "Ruach",
+        "Holy Spirit"
+      ],
+      "cz": [
+        "Ruach",
+        "Duch svat",
+        "Ducha svat",
+        "Duchu svat",
+        "Duchem svat"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"Spirit of holiness\", the Holy Spirit.",
+      "cz": "Hebrejsky „Duch svatosti“, Duch svatý."
+    }
+  },
+  {
+    "key": "yhwh",
+    "kind": "divine",
+    "src": "יהוה · κύριος",
+    "en": {
+      "orig": "Yahweh",
+      "trad": "the LORD"
+    },
+    "cz": {
+      "orig": "Jahve",
+      "trad": "Hospodin"
+    },
+    "leak": {
+      "en": [
+        "Yahweh",
+        "LORD"
+      ],
+      "cz": [
+        "Jahve",
+        "Hospodin"
+      ]
+    },
+    "note": {
+      "en": "The personal name of the God of Israel (Exod 3:14–15).",
+      "cz": "Osobní jméno Boha Izraele (Ex 3,14–15)."
+    }
+  },
+  {
+    "key": "abiathar",
+    "kind": "person",
+    "src": "אֶבְיָתָר · Ἀβιαθάρ",
+    "en": {
+      "orig": "Evyatar",
+      "trad": "Abiathar"
+    },
+    "cz": {
+      "orig": "Evjatar",
+      "trad": "Abiatar"
+    },
+    "leak": {
+      "en": [
+        "Evyatar",
+        "Abiathar"
+      ],
+      "cz": [
+        "Evjatar",
+        "Abiatar",
+        "Abiathar"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"father of abundance\"; high priest in David's time.",
+      "cz": "Hebrejsky „otec hojnosti“; velekněz za Davida."
+    }
+  },
+  {
+    "key": "abraham",
+    "kind": "person",
+    "src": "אַבְרָהָם · Ἀβραάμ",
+    "en": {
+      "orig": "Avraham",
+      "trad": "Abraham"
+    },
+    "cz": {
+      "orig": "Avraham",
+      "trad": "Abraham"
+    },
+    "leak": {
+      "en": [
+        "Avraham",
+        "Abraham"
+      ],
+      "cz": [
+        "Avraham",
+        "Abraham"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"father of a multitude\"; patriarch of Israel.",
+      "cz": "Hebrejsky „otec mnohých“; praotec Izraele."
+    }
+  },
+  {
+    "key": "alexander",
+    "kind": "person",
+    "src": "Ἀλέξανδρος",
+    "en": {
+      "orig": "Alexandros",
+      "trad": "Alexander"
+    },
+    "cz": {
+      "orig": "Alexandros",
+      "trad": "Alexandr"
+    },
+    "leak": {
+      "en": [
+        "Alexand"
+      ],
+      "cz": [
+        "Alexand"
+      ]
+    },
+    "note": {
+      "en": "Greek name, \"defender of men\"; son of the man who carried the cross.",
+      "cz": "Řecké jméno, „ochránce mužů“; syn muže, který nesl kříž."
+    }
+  },
+  {
+    "key": "alphaeus",
+    "kind": "person",
+    "src": "Ἁλφαῖος",
+    "en": {
+      "orig": "Alphaios",
+      "trad": "Alphaeus"
+    },
+    "cz": {
+      "orig": "Alfaios",
+      "trad": "Alfeus"
+    },
+    "leak": {
+      "en": [
+        "Alpha"
+      ],
+      "cz": [
+        "Alfa",
+        "Alfe",
+        "Alpha"
+      ]
+    },
+    "note": {
+      "en": "Greek form of a Semitic name of uncertain form; father of Levi.",
+      "cz": "Řecký tvar semitského jména nejisté podoby; otec Leviho."
+    }
+  },
+  {
+    "key": "andrew",
+    "kind": "person",
+    "src": "Ἀνδρέας",
+    "en": {
+      "orig": "Andreas",
+      "trad": "Andrew"
+    },
+    "cz": {
+      "orig": "Andreas",
+      "trad": "Ondřej"
+    },
+    "leak": {
+      "en": [
+        "Andreas",
+        "Andrew"
+      ],
+      "cz": [
+        "Andreas",
+        "Ondřej",
+        "Andrew"
+      ]
+    },
+    "note": {
+      "en": "Greek name, \"manly\"; one of the Twelve.",
+      "cz": "Řecké jméno, „mužný“; jeden z Dvanácti."
+    }
+  },
+  {
+    "key": "barabbas",
+    "kind": "person",
+    "src": "בַּר אַבָּא · Βαραββᾶς",
+    "en": {
+      "orig": "Bar-Abba",
+      "trad": "Barabbas"
+    },
+    "cz": {
+      "orig": "Bar-Abba",
+      "trad": "Barabáš"
+    },
+    "leak": {
+      "en": [
+        "Bar-Abba",
+        "Barabbas"
+      ],
+      "cz": [
+        "Bar-Abba",
+        "Barabáš",
+        "Barabbas"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"son of the father\"; the prisoner released instead of Yeshua.",
+      "cz": "Aramejsky „syn otce“; vězeň propuštěný místo Ješuy."
+    }
+  },
+  {
+    "key": "bartholomew",
+    "kind": "person",
+    "src": "בַּר תַּלְמַי · Βαρθολομαῖος",
+    "en": {
+      "orig": "Bar-Talmai",
+      "trad": "Bartholomew"
+    },
+    "cz": {
+      "orig": "Bar-Talmaj",
+      "trad": "Bartoloměj"
+    },
+    "leak": {
+      "en": [
+        "Bar-Talmai",
+        "Bartholomew"
+      ],
+      "cz": [
+        "Bar-Talmaj",
+        "Bartoloměj",
+        "Bartholomew"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"son of Talmai\"; one of the Twelve.",
+      "cz": "Aramejsky „syn Talmaje“; jeden z Dvanácti."
+    }
+  },
+  {
+    "key": "bartimaeus",
+    "kind": "person",
+    "src": "Βαρτιμαῖος",
+    "en": {
+      "orig": "Bartimaios",
+      "trad": "Bartimaeus"
+    },
+    "cz": {
+      "orig": "Bartimaios",
+      "trad": "Bartimaios"
+    },
+    "leak": {
+      "en": [
+        "Bartimai",
+        "Bartimae"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "\"Son of Timaios\" (10:46); the blind beggar at Jericho.",
+      "cz": "„Syn Timaiův“ (10,46); slepý žebrák u Jericha."
+    }
+  },
+  {
+    "key": "beelzebul",
+    "kind": "person",
+    "src": "Βεελζεβούλ",
+    "en": {
+      "orig": "Beelzebul",
+      "trad": "Beelzebul"
+    },
+    "cz": {
+      "orig": "Beelzebul",
+      "trad": "Belzebul"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Beelzebul",
+        "Belzebul"
+      ]
+    },
+    "note": {
+      "en": "Name for the prince of demons, probably \"lord of the lofty house\".",
+      "cz": "Jméno knížete démonů, snad „pán vznešeného příbytku“."
+    }
+  },
+  {
+    "key": "caesar",
+    "kind": "person",
+    "src": "Καῖσαρ · Caesar",
+    "en": {
+      "orig": "Caesar",
+      "trad": "Caesar"
+    },
+    "cz": {
+      "orig": "Caesar",
+      "trad": "císař"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Caesar",
+        "císař",
+        "Císař"
+      ]
+    },
+    "note": {
+      "en": "Title of the Roman emperor (here Tiberius).",
+      "cz": "Titul římského císaře (zde Tiberia)."
+    }
+  },
+  {
+    "key": "elijah",
+    "kind": "person",
+    "src": "אֵלִיָּהוּ · Ἠλίας",
+    "en": {
+      "orig": "Eliyahu",
+      "trad": "Elijah"
+    },
+    "cz": {
+      "orig": "Elijahu",
+      "trad": "Eliáš"
+    },
+    "leak": {
+      "en": [
+        "Eliyahu",
+        "Elijah"
+      ],
+      "cz": [
+        "Elijahu",
+        "Eliáš",
+        "Elijah"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"my God is Yah\"; the prophet.",
+      "cz": "Hebrejsky „můj Bůh je Jah“; prorok."
+    }
+  },
+  {
+    "key": "herod",
+    "kind": "person",
+    "src": "Ἡρῴδης",
+    "en": {
+      "orig": "Herodes",
+      "trad": "Herod"
+    },
+    "cz": {
+      "orig": "Herodes",
+      "trad": "Herodes"
+    },
+    "leak": {
+      "en": [
+        "Herod"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "Greek name; here Antipas, tetrarch of Galilee.",
+      "cz": "Řecké jméno; zde Antipas, tetrarcha Galileje."
+    }
+  },
+  {
+    "key": "isaac",
+    "kind": "person",
+    "src": "יִצְחָק · Ἰσαάκ",
+    "en": {
+      "orig": "Yitzchaq",
+      "trad": "Isaac"
+    },
+    "cz": {
+      "orig": "Jicchak",
+      "trad": "Izák"
+    },
+    "leak": {
+      "en": [
+        "Yitzchaq",
+        "Isaac"
+      ],
+      "cz": [
+        "Jicchak",
+        "Izák",
+        "Isaac"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"he laughs\"; the patriarch.",
+      "cz": "Hebrejsky „směje se“; praotec."
+    }
+  },
+  {
+    "key": "isaiah",
+    "kind": "person",
+    "src": "יְשַׁעְיָהוּ · Ἠσαΐας",
+    "en": {
+      "orig": "Yeshayahu",
+      "trad": "Isaiah"
+    },
+    "cz": {
+      "orig": "Ješajahu",
+      "trad": "Izajáš"
+    },
+    "leak": {
+      "en": [
+        "Yeshayahu",
+        "Isaiah"
+      ],
+      "cz": [
+        "Ješajahu",
+        "Izajáš",
+        "Isaiah"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"Yah is salvation\"; the prophet.",
+      "cz": "Hebrejsky „Jah je spása“; prorok."
+    }
+  },
+  {
+    "key": "iscariot",
+    "kind": "person",
+    "src": "Ἰσκαριώθ · Ἰσκαριώτης",
+    "en": {
+      "orig": "Iscariot",
+      "trad": "Iscariot"
+    },
+    "cz": {
+      "orig": "Iškariot",
+      "trad": "Iškariotský"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Iškariot",
+        "Iscariot"
+      ]
+    },
+    "note": {
+      "en": "Greek form of Judas' byname; meaning uncertain (\"man of Kerioth\"?).",
+      "cz": "Řecký tvar Jidášova přízviska; význam nejistý („muž z Keriotu“?)."
+    }
+  },
+  {
+    "key": "jacob",
+    "kind": "person",
+    "src": "יַעֲקֹב · Ἰακώβ",
+    "en": {
+      "orig": "Yaaqov",
+      "trad": "Jacob"
+    },
+    "cz": {
+      "orig": "Jaakov",
+      "trad": "Jákob"
+    },
+    "leak": {
+      "en": [
+        "Yaaqov",
+        "Jacob"
+      ],
+      "cz": [
+        "Jaakov",
+        "Jákob",
+        "Jacob"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"heel-holder\"; the patriarch Israel.",
+      "cz": "Hebrejsky „ten, kdo drží patu“; praotec Izrael."
+    }
+  },
+  {
+    "key": "jairus",
+    "kind": "person",
+    "src": "יָאִיר · Ἰάϊρος",
+    "en": {
+      "orig": "Yair",
+      "trad": "Jairus"
+    },
+    "cz": {
+      "orig": "Jair",
+      "trad": "Jairos"
+    },
+    "leak": {
+      "en": [
+        "Yair",
+        "Jairus"
+      ],
+      "cz": [
+        "Jair"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"he gives light\"; a ruler of the synagogue.",
+      "cz": "Hebrejsky „osvěcuje“; představený synagogy."
+    }
+  },
+  {
+    "key": "james",
+    "kind": "person",
+    "src": "יַעֲקֹב · Ἰάκωβος",
+    "en": {
+      "orig": "Yaaqov",
+      "trad": "James"
+    },
+    "cz": {
+      "orig": "Jaakov",
+      "trad": "Jakub"
+    },
+    "leak": {
+      "en": [
+        "Yaaqov",
+        "James",
+        "Jacob"
+      ],
+      "cz": [
+        "Jaakov",
+        "Jakub",
+        "Jacob"
+      ]
+    },
+    "note": {
+      "en": "The patriarch's Hebrew name, borne by several NT men.",
+      "cz": "Hebrejské jméno praotce, které nese několik mužů NZ."
+    }
+  },
+  {
+    "key": "john",
+    "kind": "person",
+    "src": "יוֹחָנָן · Ἰωάννης",
+    "en": {
+      "orig": "Yochanan",
+      "trad": "John"
+    },
+    "cz": {
+      "orig": "Jochanan",
+      "trad": "Jan"
+    },
+    "leak": {
+      "en": [
+        "Yochanan",
+        "John"
+      ],
+      "cz": [
+        "Jochanan",
+        "Jan",
+        "John"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"Yah is gracious\"; the Immerser and the son of Zebedee.",
+      "cz": "Hebrejsky „Jah je milostivý“; Ponořovatel a syn Zebedeův."
+    }
+  },
+  {
+    "key": "joseph",
+    "kind": "person",
+    "src": "יוֹסֵף · Ἰωσήφ",
+    "en": {
+      "orig": "Yosef",
+      "trad": "Joseph"
+    },
+    "cz": {
+      "orig": "Josef",
+      "trad": "Josef"
+    },
+    "leak": {
+      "en": [
+        "Yosef",
+        "Joseph"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "Hebrew \"he adds\"; the man from Arimathea who buried Yeshua.",
+      "cz": "Hebrejsky „přidává“; muž z Arimatie, který pohřbil Ješuu."
+    }
+  },
+  {
+    "key": "joses",
+    "kind": "person",
+    "src": "יוֹסֵה · Ἰωσῆς",
+    "en": {
+      "orig": "Yose",
+      "trad": "Joses"
+    },
+    "cz": {
+      "orig": "Jose",
+      "trad": "Jozes"
+    },
+    "leak": {
+      "en": [
+        "Yose",
+        "Joses",
+        "Joseph"
+      ],
+      "cz": [
+        "Jose",
+        "Jozes",
+        "Joseph"
+      ]
+    },
+    "note": {
+      "en": "Hebrew short form of Yosef; a brother of Yeshua (6:3).",
+      "cz": "Hebrejská zkrácenina jména Josef; bratr Ješuův (6,3). Tvar ČEP nejistý, užit kralický Jozes."
+    }
+  },
+  {
+    "key": "judas",
+    "kind": "person",
+    "src": "יְהוּדָה · Ἰούδας",
+    "en": {
+      "orig": "Yehudah",
+      "trad": "Judas"
+    },
+    "cz": {
+      "orig": "Jehuda",
+      "trad": "Jidáš"
+    },
+    "leak": {
+      "en": [
+        "Yehud",
+        "Judas"
+      ],
+      "cz": [
+        "Jehud",
+        "Jidáš",
+        "Judas"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"praised\"; Iscariot, the betrayer.",
+      "cz": "Hebrejsky „chválený“; Iškariotský, zrádce."
+    }
+  },
+  {
+    "key": "jude",
+    "kind": "person",
+    "src": "יְהוּדָה · Ἰούδας",
+    "en": {
+      "orig": "Yehudah",
+      "trad": "Judas"
+    },
+    "cz": {
+      "orig": "Jehuda",
+      "trad": "Juda"
+    },
+    "leak": {
+      "en": [
+        "Yehud",
+        "Judas"
+      ],
+      "cz": [
+        "Jehud",
+        "Juda"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"praised\"; a brother of Yeshua (6:3).",
+      "cz": "Hebrejsky „chválený“; bratr Ješuův (6,3)."
+    }
+  },
+  {
+    "key": "magdalene",
+    "kind": "person",
+    "src": "Μαγδαληνή",
+    "en": {
+      "orig": "Magdalene",
+      "trad": "Magdalene"
+    },
+    "cz": {
+      "orig": "Magdaléna",
+      "trad": "Magdalská"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Magdal"
+      ]
+    },
+    "note": {
+      "en": "Greek byname \"of Magdala\".",
+      "cz": "Řecké přízvisko „z Magdaly“."
+    }
+  },
+  {
+    "key": "mary",
+    "kind": "person",
+    "src": "מִרְיָם · Μαρία",
+    "en": {
+      "orig": "Miryam",
+      "trad": "Mary"
+    },
+    "cz": {
+      "orig": "Mirjam",
+      "trad": "Marie"
+    },
+    "leak": {
+      "en": [
+        "Miryam",
+        "Mary"
+      ],
+      "cz": [
+        "Mirjam",
+        "Mari",
+        "Mary"
+      ]
+    },
+    "note": {
+      "en": "Hebrew Miryam, the name of Moses' sister.",
+      "cz": "Hebrejsky Mirjam, jméno Mojžíšovy sestry."
+    }
+  },
+  {
+    "key": "matthew",
+    "kind": "person",
+    "src": "מַתַּי · Μαθθαῖος",
+    "en": {
+      "orig": "Mattai",
+      "trad": "Matthew"
+    },
+    "cz": {
+      "orig": "Mattaj",
+      "trad": "Matouš"
+    },
+    "leak": {
+      "en": [
+        "Mattai",
+        "Matthew"
+      ],
+      "cz": [
+        "Mattaj",
+        "Matouš",
+        "Matthew"
+      ]
+    },
+    "note": {
+      "en": "Aramaic short form of Mattityahu, \"gift of Yah\"; one of the Twelve.",
+      "cz": "Aramejská zkrácenina jména Matitjahu, „dar Jah“; jeden z Dvanácti."
+    }
+  },
+  {
+    "key": "moses",
+    "kind": "person",
+    "src": "מֹשֶׁה · Μωϋσῆς",
+    "en": {
+      "orig": "Moshe",
+      "trad": "Moses"
+    },
+    "cz": {
+      "orig": "Moše",
+      "trad": "Mojžíš"
+    },
+    "leak": {
+      "en": [
+        "Moshe",
+        "Moses"
+      ],
+      "cz": [
+        "Moše",
+        "Mojžíš",
+        "Moses"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"drawn out\"; the lawgiver of Israel.",
+      "cz": "Hebrejsky „vytažený“; zákonodárce Izraele."
+    }
+  },
+  {
+    "key": "peter",
+    "kind": "person",
+    "src": "כֵּיפָא · Πέτρος",
+    "en": {
+      "orig": "Kefa",
+      "trad": "Peter"
+    },
+    "cz": {
+      "orig": "Kefa",
+      "trad": "Petr"
+    },
+    "leak": {
+      "en": [
+        "Kef",
+        "Peter"
+      ],
+      "cz": [
+        "Kef",
+        "Petr"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"rock\"; the name Yeshua gave Shimon.",
+      "cz": "Aramejsky „skála“; jméno, které Ješua dal Šimonovi."
+    }
+  },
+  {
+    "key": "philip",
+    "kind": "person",
+    "src": "Φίλιππος",
+    "en": {
+      "orig": "Philippos",
+      "trad": "Philip"
+    },
+    "cz": {
+      "orig": "Filippos",
+      "trad": "Filip"
+    },
+    "leak": {
+      "en": [
+        "Philip"
+      ],
+      "cz": [
+        "Filip",
+        "Philip"
+      ]
+    },
+    "note": {
+      "en": "Greek \"lover of horses\"; the apostle, and Herod's brother.",
+      "cz": "Řecky „milovník koní“; apoštol a Herodův bratr."
+    }
+  },
+  {
+    "key": "pilate",
+    "kind": "person",
+    "src": "Πιλᾶτος · Pilatus",
+    "en": {
+      "orig": "Pilatus",
+      "trad": "Pilate"
+    },
+    "cz": {
+      "orig": "Pilatus",
+      "trad": "Pilát"
+    },
+    "leak": {
+      "en": [
+        "Pilat"
+      ],
+      "cz": [
+        "Pilat",
+        "Pilát"
+      ]
+    },
+    "note": {
+      "en": "Latin name of Pontius Pilatus, Roman governor of Judea.",
+      "cz": "Latinské jméno Pontia Pilata, římského místodržitele Judska."
+    }
+  },
+  {
+    "key": "simon",
+    "kind": "person",
+    "src": "שִׁמְעוֹן · Σίμων",
+    "en": {
+      "orig": "Shimon",
+      "trad": "Simon"
+    },
+    "cz": {
+      "orig": "Šimon",
+      "trad": "Šimon"
+    },
+    "leak": {
+      "en": [
+        "Shimon",
+        "Simon"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "Hebrew \"he has heard\"; several men, chiefly Kefa.",
+      "cz": "Hebrejsky „vyslyšel“; několik mužů, hlavně Kefa."
+    }
+  },
+  {
+    "key": "thaddaeus",
+    "kind": "person",
+    "src": "Θαδδαῖος",
+    "en": {
+      "orig": "Thaddaios",
+      "trad": "Thaddaeus"
+    },
+    "cz": {
+      "orig": "Thaddaios",
+      "trad": "Tadeáš"
+    },
+    "leak": {
+      "en": [
+        "Thadd"
+      ],
+      "cz": [
+        "Thadd",
+        "Tadeáš"
+      ]
+    },
+    "note": {
+      "en": "Greek form of a Semitic name of uncertain form; one of the Twelve.",
+      "cz": "Řecký tvar semitského jména nejisté podoby; jeden z Dvanácti."
+    }
+  },
+  {
+    "key": "thomas",
+    "kind": "person",
+    "src": "תְּאוֹמָא · Θωμᾶς",
+    "en": {
+      "orig": "Toma",
+      "trad": "Thomas"
+    },
+    "cz": {
+      "orig": "Toma",
+      "trad": "Tomáš"
+    },
+    "leak": {
+      "en": [
+        "Toma",
+        "Thomas"
+      ],
+      "cz": [
+        "Toma",
+        "Tomáš",
+        "Thomas"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"twin\"; one of the Twelve.",
+      "cz": "Aramejsky „dvojče“; jeden z Dvanácti."
+    }
+  },
+  {
+    "key": "timaeus",
+    "kind": "person",
+    "src": "Τιμαῖος",
+    "en": {
+      "orig": "Timaios",
+      "trad": "Timaeus"
+    },
+    "cz": {
+      "orig": "Timaios",
+      "trad": "Timaios"
+    },
+    "leak": {
+      "en": [
+        "Timai",
+        "Timae"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "Greek name, \"honored\"; father of the blind beggar.",
+      "cz": "Řecké jméno, „ctěný“; otec slepého žebráka."
+    }
+  },
+  {
+    "key": "yeshua",
+    "kind": "person",
+    "src": "יֵשׁוּעַ · Ἰησοῦς",
+    "en": {
+      "orig": "Yeshua",
+      "trad": "Jesus"
+    },
+    "cz": {
+      "orig": "Ješua",
+      "trad": "Ježíš"
+    },
+    "leak": {
+      "en": [
+        "Yeshua",
+        "Jesus"
+      ],
+      "cz": [
+        "Ješu",
+        "Ježíš",
+        "Yeshu"
+      ]
+    },
+    "note": {
+      "en": "Hebrew name, \"Yah saves\".",
+      "cz": "Hebrejské jméno, „Jah zachraňuje“."
+    }
+  },
+  {
+    "key": "zebedee",
+    "kind": "person",
+    "src": "Ζεβεδαῖος",
+    "en": {
+      "orig": "Zebedaios",
+      "trad": "Zebedee"
+    },
+    "cz": {
+      "orig": "Zebedaios",
+      "trad": "Zebedeus"
+    },
+    "leak": {
+      "en": [
+        "Zebed"
+      ],
+      "cz": [
+        "Zebed"
+      ]
+    },
+    "note": {
+      "en": "Greek form of a Semitic name of uncertain form; father of two of the Twelve.",
+      "cz": "Řecký tvar semitského jména nejisté podoby; otec dvou z Dvanácti."
+    }
+  },
+  {
+    "key": "arimathea",
+    "kind": "place",
+    "src": "Ἁριμαθαία",
+    "en": {
+      "orig": "Arimathaia",
+      "trad": "Arimathea"
+    },
+    "cz": {
+      "orig": "Arimathaia",
+      "trad": "Arimatie"
+    },
+    "leak": {
+      "en": [
+        "Arimatha",
+        "Arimathe"
+      ],
+      "cz": [
+        "Arimatha",
+        "Arimati",
+        "Arimathe"
+      ]
+    },
+    "note": {
+      "en": "Judean town; its Semitic name is uncertain.",
+      "cz": "Judské město; jeho semitský název je nejistý."
+    }
+  },
+  {
+    "key": "bethany",
+    "kind": "place",
+    "src": "Βηθανία",
+    "en": {
+      "orig": "Bethania",
+      "trad": "Bethany"
+    },
+    "cz": {
+      "orig": "Bethania",
+      "trad": "Betanie"
+    },
+    "leak": {
+      "en": [
+        "Bethan"
+      ],
+      "cz": [
+        "Bethan",
+        "Betani"
+      ]
+    },
+    "note": {
+      "en": "Village on the Mount of Olives; its Semitic name is uncertain.",
+      "cz": "Vesnice na Olivové hoře; její semitský název je nejistý."
+    }
+  },
+  {
+    "key": "bethphage",
+    "kind": "place",
+    "src": "בֵּית פַּגֵּי · Βηθφαγή",
+    "en": {
+      "orig": "Beit Pagei",
+      "trad": "Bethphage"
+    },
+    "cz": {
+      "orig": "Bejt Pagej",
+      "trad": "Betfage"
+    },
+    "leak": {
+      "en": [
+        "Beit Pag",
+        "Bethphage"
+      ],
+      "cz": [
+        "Bejt Pag",
+        "Betfag",
+        "Bethphag"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"house of unripe figs\"; village by Jerusalem.",
+      "cz": "Aramejsky „dům nezralých fíků“; vesnice u Jeruzaléma."
+    }
+  },
+  {
+    "key": "caesarea-philippi",
+    "kind": "place",
+    "src": "Καισάρεια ἡ Φιλίππου",
+    "en": {
+      "orig": "Caesarea Philippi",
+      "trad": "Caesarea Philippi"
+    },
+    "cz": {
+      "orig": "Caesarea Filippi",
+      "trad": "Cesarea Filipova"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Caesare",
+        "Cesare"
+      ]
+    },
+    "note": {
+      "en": "\"Philip's Caesarea\", city at the sources of the Jordan.",
+      "cz": "„Filipova Caesarea“, město u pramenů Jordánu."
+    }
+  },
+  {
+    "key": "capernaum",
+    "kind": "place",
+    "src": "כְּפַר נַחוּם · Καφαρναούμ",
+    "en": {
+      "orig": "Kfar Nachum",
+      "trad": "Capernaum"
+    },
+    "cz": {
+      "orig": "Kfar Nachum",
+      "trad": "Kafarnaum"
+    },
+    "leak": {
+      "en": [
+        "Kfar Nachum",
+        "Capernaum"
+      ],
+      "cz": [
+        "Kfar Nachum",
+        "Kafarnaum",
+        "Capernaum"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"village of Nachum\"; town on the Sea of Galilee.",
+      "cz": "Hebrejsky „Nachumova vesnice“; město u Galilejského moře."
+    }
+  },
+  {
+    "key": "cyrene",
+    "kind": "place",
+    "src": "Κυρήνη",
+    "en": {
+      "orig": "Kyrene",
+      "trad": "Cyrene"
+    },
+    "cz": {
+      "orig": "Kyréné",
+      "trad": "Kyréna"
+    },
+    "leak": {
+      "en": [
+        "Kyren",
+        "Cyren"
+      ],
+      "cz": [
+        "Kyrén",
+        "Cyren"
+      ]
+    },
+    "note": {
+      "en": "Greek city in North Africa (Libya).",
+      "cz": "Řecké město v severní Africe (Libye)."
+    }
+  },
+  {
+    "key": "decapolis",
+    "kind": "place",
+    "src": "Δεκάπολις",
+    "en": {
+      "orig": "Decapolis",
+      "trad": "Decapolis"
+    },
+    "cz": {
+      "orig": "Dekapolis",
+      "trad": "Desetiměstí"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Dekapol",
+        "Desetiměst",
+        "Decapol"
+      ]
+    },
+    "note": {
+      "en": "Greek \"ten cities\"; region east of the Jordan.",
+      "cz": "Řecky „deset měst“; oblast na východ od Jordánu."
+    }
+  },
+  {
+    "key": "galilee",
+    "kind": "place",
+    "src": "גָּלִיל · Γαλιλαία",
+    "en": {
+      "orig": "Galil",
+      "trad": "Galilee"
+    },
+    "cz": {
+      "orig": "Galil",
+      "trad": "Galilea"
+    },
+    "leak": {
+      "en": [
+        "Galil"
+      ],
+      "cz": [
+        "Galil"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"circle, district\"; northern region of the land.",
+      "cz": "Hebrejsky „okrsek, kraj“; severní oblast země."
+    }
+  },
+  {
+    "key": "gennesaret",
+    "kind": "place",
+    "src": "גִּנּוֹסַר · Γεννησαρέτ",
+    "en": {
+      "orig": "Ginosar",
+      "trad": "Gennesaret"
+    },
+    "cz": {
+      "orig": "Ginosar",
+      "trad": "Genezaret"
+    },
+    "leak": {
+      "en": [
+        "Ginosar",
+        "Gennesaret"
+      ],
+      "cz": [
+        "Ginosar",
+        "Genezaret",
+        "Gennesaret"
+      ]
+    },
+    "note": {
+      "en": "Plain on the west shore of the Sea of Galilee.",
+      "cz": "Rovina na západním břehu Galilejského moře."
+    }
+  },
+  {
+    "key": "gerasenes",
+    "kind": "place",
+    "src": "Γερασηνοί",
+    "en": {
+      "orig": "Gerasenes",
+      "trad": "Gerasenes"
+    },
+    "cz": {
+      "orig": "Geraseni",
+      "trad": "Gerasenští"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Gerasen"
+      ]
+    },
+    "note": {
+      "en": "People of Gerasa, a city of the Decapolis.",
+      "cz": "Obyvatelé Gerasy, města Dekapole."
+    }
+  },
+  {
+    "key": "gethsemane",
+    "kind": "place",
+    "src": "Γεθσημανί",
+    "en": {
+      "orig": "Gethsemani",
+      "trad": "Gethsemane"
+    },
+    "cz": {
+      "orig": "Gethsemani",
+      "trad": "Getsemane"
+    },
+    "leak": {
+      "en": [
+        "Gethseman"
+      ],
+      "cz": [
+        "Gethseman",
+        "Getseman"
+      ]
+    },
+    "note": {
+      "en": "Garden on the Mount of Olives; probably Aramaic \"oil press\".",
+      "cz": "Zahrada na Olivové hoře; snad aramejsky „lis na olej“."
+    }
+  },
+  {
+    "key": "idumea",
+    "kind": "place",
+    "src": "אֱדוֹם · Ἰδουμαία",
+    "en": {
+      "orig": "Edom",
+      "trad": "Idumea"
+    },
+    "cz": {
+      "orig": "Edom",
+      "trad": "Idumea"
+    },
+    "leak": {
+      "en": [
+        "Edom",
+        "Idume"
+      ],
+      "cz": [
+        "Edom",
+        "Idume"
+      ]
+    },
+    "note": {
+      "en": "Edom, the region south of Judea.",
+      "cz": "Edom, oblast jižně od Judska."
+    }
+  },
+  {
+    "key": "israel",
+    "kind": "place",
+    "src": "יִשְׂרָאֵל · Ἰσραήλ",
+    "en": {
+      "orig": "Yisrael",
+      "trad": "Israel"
+    },
+    "cz": {
+      "orig": "Jisrael",
+      "trad": "Izrael"
+    },
+    "leak": {
+      "en": [
+        "Yisrael",
+        "Israel"
+      ],
+      "cz": [
+        "Jisrael",
+        "Izrael",
+        "Israel"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"God strives\"; the people and land of Israel.",
+      "cz": "Hebrejsky „Bůh zápasí“; lid a země Izrael."
+    }
+  },
+  {
+    "key": "jericho",
+    "kind": "place",
+    "src": "יְרִיחוֹ · Ἰεριχώ",
+    "en": {
+      "orig": "Yericho",
+      "trad": "Jericho"
+    },
+    "cz": {
+      "orig": "Jericho",
+      "trad": "Jericho"
+    },
+    "leak": {
+      "en": [
+        "Yericho",
+        "Jericho"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "City in the Jordan valley.",
+      "cz": "Město v údolí Jordánu."
+    }
+  },
+  {
+    "key": "jerusalem",
+    "kind": "place",
+    "src": "יְרוּשָׁלַיִם · Ἱεροσόλυμα",
+    "en": {
+      "orig": "Yerushalayim",
+      "trad": "Jerusalem"
+    },
+    "cz": {
+      "orig": "Jerušalajim",
+      "trad": "Jeruzalém"
+    },
+    "leak": {
+      "en": [
+        "Yerushalayim",
+        "Jerusalem"
+      ],
+      "cz": [
+        "Jerušalajim",
+        "Jeruzalém",
+        "Jerusalem"
+      ]
+    },
+    "note": {
+      "en": "Hebrew name of the holy city.",
+      "cz": "Hebrejský název svatého města."
+    }
+  },
+  {
+    "key": "jordan",
+    "kind": "place",
+    "src": "יַרְדֵּן · Ἰορδάνης",
+    "en": {
+      "orig": "Yarden",
+      "trad": "Jordan"
+    },
+    "cz": {
+      "orig": "Jarden",
+      "trad": "Jordán"
+    },
+    "leak": {
+      "en": [
+        "Yarden",
+        "Jordan"
+      ],
+      "cz": [
+        "Jarden",
+        "Jordán",
+        "Jordan"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"descender\"; the river of the land.",
+      "cz": "Hebrejsky „sestupující“; řeka země."
+    }
+  },
+  {
+    "key": "judea",
+    "kind": "place",
+    "src": "יְהוּדָה · Ἰουδαία",
+    "en": {
+      "orig": "Yehudah",
+      "trad": "Judea"
+    },
+    "cz": {
+      "orig": "Jehuda",
+      "trad": "Judsko"
+    },
+    "leak": {
+      "en": [
+        "Yehud",
+        "Judea"
+      ],
+      "cz": [
+        "Jehud",
+        "Judsk",
+        "judsk",
+        "Jude"
+      ]
+    },
+    "note": {
+      "en": "The region of Yehudah around Jerusalem.",
+      "cz": "Oblast Jehudy kolem Jeruzaléma."
+    }
+  },
+  {
+    "key": "mount-of-olives",
+    "kind": "place",
+    "src": "הַר הַזֵּיתִים · ὄρος τῶν ἐλαιῶν",
+    "en": {
+      "orig": "Har HaZeitim",
+      "trad": "Mount of Olives"
+    },
+    "cz": {
+      "orig": "Har HaZejtim",
+      "trad": "Olivová hora"
+    },
+    "leak": {
+      "en": [
+        "HaZeitim",
+        "Mount of Olives"
+      ],
+      "cz": [
+        "HaZejtim",
+        "Olivov"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"mount of olives\" (Zech 14:4), east of Jerusalem.",
+      "cz": "Hebrejsky „hora olivy“ (Za 14,4), východně od Jeruzaléma."
+    }
+  },
+  {
+    "key": "nazareth",
+    "kind": "place",
+    "src": "נָצְרַת · Ναζαρέτ",
+    "en": {
+      "orig": "Natzrat",
+      "trad": "Nazareth"
+    },
+    "cz": {
+      "orig": "Nacrat",
+      "trad": "Nazaret"
+    },
+    "leak": {
+      "en": [
+        "Natzrat",
+        "Nazareth"
+      ],
+      "cz": [
+        "Nacrat",
+        "Nazaret"
+      ]
+    },
+    "note": {
+      "en": "Yeshua's hometown in Galilee.",
+      "cz": "Ješuovo rodné město v Galileji."
+    }
+  },
+  {
+    "key": "sidon",
+    "kind": "place",
+    "src": "צִידוֹן · Σιδών",
+    "en": {
+      "orig": "Tzidon",
+      "trad": "Sidon"
+    },
+    "cz": {
+      "orig": "Cidon",
+      "trad": "Sidón"
+    },
+    "leak": {
+      "en": [
+        "Tzidon",
+        "Sidon"
+      ],
+      "cz": [
+        "Cidon",
+        "Sidón",
+        "Sidon"
+      ]
+    },
+    "note": {
+      "en": "Phoenician port city.",
+      "cz": "Fénické přístavní město."
+    }
+  },
+  {
+    "key": "tyre",
+    "kind": "place",
+    "src": "צֹר · Τύρος",
+    "en": {
+      "orig": "Tzor",
+      "trad": "Tyre"
+    },
+    "cz": {
+      "orig": "Cor",
+      "trad": "Týr"
+    },
+    "leak": {
+      "en": [
+        "Tzor",
+        "Tyre"
+      ],
+      "cz": [
+        "Cor",
+        "Týr",
+        "Tyr"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"rock\"; Phoenician port city.",
+      "cz": "Hebrejsky „skála“; fénické přístavní město."
+    }
+  },
+  {
+    "key": "herodians",
+    "kind": "people",
+    "src": "Ἡρῳδιανοί",
+    "en": {
+      "orig": "Herodianoi",
+      "trad": "Herodians"
+    },
+    "cz": {
+      "orig": "herodianoi",
+      "trad": "herodiáni"
+    },
+    "leak": {
+      "en": [
+        "Herodian"
+      ],
+      "cz": [
+        "herodian",
+        "Herodian",
+        "herodián",
+        "Herodián"
+      ]
+    },
+    "note": {
+      "en": "Greek: supporters of Herod's dynasty.",
+      "cz": "Řecky: stoupenci Herodovy dynastie."
+    }
+  },
+  {
+    "key": "pharisees",
+    "kind": "people",
+    "src": "פְּרוּשִׁים · Φαρισαῖοι",
+    "en": {
+      "orig": "Perushim",
+      "trad": "Pharisees"
+    },
+    "cz": {
+      "orig": "perušim",
+      "trad": "farizeové"
+    },
+    "leak": {
+      "en": [
+        "Perushim",
+        "Pharisee"
+      ],
+      "cz": [
+        "perušim",
+        "Perušim",
+        "farize",
+        "Farize"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"separated ones\"; a movement devoted to the Torah.",
+      "cz": "Hebrejsky „oddělení“; hnutí oddané Tóře."
+    }
+  },
+  {
+    "key": "sadducees",
+    "kind": "people",
+    "src": "צְדוּקִים · Σαδδουκαῖοι",
+    "en": {
+      "orig": "Tzedukim",
+      "trad": "Sadducees"
+    },
+    "cz": {
+      "orig": "cedukim",
+      "trad": "saduceové"
+    },
+    "leak": {
+      "en": [
+        "Tzedukim",
+        "Sadducee"
+      ],
+      "cz": [
+        "cedukim",
+        "Cedukim",
+        "saduce",
+        "Saduce",
+        "Sadduc"
+      ]
+    },
+    "note": {
+      "en": "Hebrew, named after the priest Tzadoq; the priestly party.",
+      "cz": "Hebrejsky, podle kněze Cadoka; kněžská strana."
+    }
+  },
+  {
+    "key": "gehenna",
+    "kind": "term",
+    "src": "גֵּיא הִנֹּם · γέεννα",
+    "en": {
+      "orig": "Gehenna",
+      "trad": "hell"
+    },
+    "cz": {
+      "orig": "Gehenna",
+      "trad": "peklo"
+    },
+    "leak": {
+      "en": [
+        "Gehenna",
+        "hell"
+      ],
+      "cz": [
+        "Gehenn",
+        "pekl",
+        "pekel"
+      ]
+    },
+    "note": {
+      "en": "From Hebrew Gei Hinnom, \"Valley of Hinnom\"; image of final judgment.",
+      "cz": "Z hebrejského Gej Hinom, „údolí Hinomu“; obraz posledního soudu."
+    }
+  },
+  {
+    "key": "immerse",
+    "kind": "term",
+    "src": "βαπτίζω",
+    "en": {
+      "orig": "immerse",
+      "trad": "baptize"
+    },
+    "cz": {
+      "orig": "ponořit",
+      "trad": "křtít"
+    },
+    "leak": {
+      "en": [
+        "immers",
+        "baptiz"
+      ],
+      "cz": [
+        "ponoř",
+        "křt",
+        "pokřt"
+      ]
+    },
+    "note": {
+      "en": "Greek baptizō, \"to immerse, dip\".",
+      "cz": "Řecky baptizó, „ponořit, namočit“."
+    }
+  },
+  {
+    "key": "immerser",
+    "kind": "term",
+    "src": "βαπτιστής",
+    "en": {
+      "orig": "Immerser",
+      "trad": "Baptist"
+    },
+    "cz": {
+      "orig": "Ponořovatel",
+      "trad": "Křtitel"
+    },
+    "leak": {
+      "en": [
+        "Immerser",
+        "Baptist"
+      ],
+      "cz": [
+        "Ponořovatel",
+        "Křtitel"
+      ]
+    },
+    "note": {
+      "en": "Greek baptistēs, \"one who immerses\"; Yochanan's byname.",
+      "cz": "Řecky baptistés, „ten, kdo ponořuje“; Jochananovo přízvisko."
+    }
+  },
+  {
+    "key": "immersion",
+    "kind": "term",
+    "src": "βάπτισμα",
+    "en": {
+      "orig": "immersion",
+      "trad": "baptism"
+    },
+    "cz": {
+      "orig": "ponoření",
+      "trad": "křest"
+    },
+    "leak": {
+      "en": [
+        "immersion",
+        "baptism"
+      ],
+      "cz": [
+        "ponořen",
+        "křest",
+        "křt"
+      ]
+    },
+    "note": {
+      "en": "Greek baptisma, \"immersion\".",
+      "cz": "Řecky baptisma, „ponoření“."
+    }
+  },
+  {
+    "key": "pesach",
+    "kind": "term",
+    "src": "פֶּסַח · πάσχα",
+    "en": {
+      "orig": "Pesach",
+      "trad": "Passover"
+    },
+    "cz": {
+      "orig": "Pesach",
+      "trad": "velikonoce"
+    },
+    "leak": {
+      "en": [
+        "Pesach",
+        "Passover"
+      ],
+      "cz": [
+        "Pesach",
+        "velikonoc",
+        "Velikonoc",
+        "Pasch",
+        "pasch"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"passing over\"; the feast of the exodus.",
+      "cz": "Hebrejsky „přejití“; svátek vyjití z Egypta."
+    }
+  },
+  {
+    "key": "qorban",
+    "kind": "term",
+    "src": "קָרְבָּן · κορβᾶν",
+    "en": {
+      "orig": "qorban",
+      "trad": "Corban"
+    },
+    "cz": {
+      "orig": "korban",
+      "trad": "korban"
+    },
+    "leak": {
+      "en": [
+        "qorban",
+        "Corban"
+      ],
+      "cz": []
+    },
+    "note": {
+      "en": "Hebrew \"offering\": a gift vowed to God (7:11).",
+      "cz": "Hebrejsky „oběť“: dar zaslíbený Bohu (7,11)."
+    }
+  },
+  {
+    "key": "rabbi",
+    "kind": "term",
+    "src": "רַבִּי · ῥαββί",
+    "en": {
+      "orig": "Rabbi",
+      "trad": "Rabbi"
+    },
+    "cz": {
+      "orig": "Rabbi",
+      "trad": "Mistr"
+    },
+    "leak": {
+      "en": [],
+      "cz": [
+        "Rabbi",
+        "Mistr"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"my great one\": title of a teacher.",
+      "cz": "Hebrejsky „můj veliký“: titul učitele."
+    }
+  },
+  {
+    "key": "rabbouni",
+    "kind": "term",
+    "src": "רַבּוּנִי · ῥαββουνί",
+    "en": {
+      "orig": "Rabbouni",
+      "trad": "Rabbi"
+    },
+    "cz": {
+      "orig": "Rabbuni",
+      "trad": "Mistr"
+    },
+    "leak": {
+      "en": [
+        "Rabbouni"
+      ],
+      "cz": [
+        "Rabbuni",
+        "Rabbouni",
+        "Mistr"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"my master\", more intimate form of Rabbi.",
+      "cz": "Aramejsky „můj mistře“, důvěrnější tvar slova Rabbi. Tvar ČEP nejistý, užit kralický Mistr."
+    }
+  },
+  {
+    "key": "sanhedrin",
+    "kind": "term",
+    "src": "סַנְהֶדְרִין · συνέδριον",
+    "en": {
+      "orig": "Sanhedrin",
+      "trad": "council"
+    },
+    "cz": {
+      "orig": "Sanhedrin",
+      "trad": "velerada"
+    },
+    "leak": {
+      "en": [
+        "Sanhedrin"
+      ],
+      "cz": [
+        "Sanhedrin",
+        "velerad",
+        "Velerad"
+      ]
+    },
+    "note": {
+      "en": "From Greek synedrion, \"sitting together\"; the supreme council in Jerusalem.",
+      "cz": "Z řeckého synedrion, „shromáždění“; nejvyšší rada v Jeruzalémě."
+    }
+  },
+  {
+    "key": "shabbat",
+    "kind": "term",
+    "src": "שַׁבָּת · σάββατον",
+    "en": {
+      "orig": "Shabbat",
+      "trad": "Sabbath"
+    },
+    "cz": {
+      "orig": "šabat",
+      "trad": "sobota"
+    },
+    "leak": {
+      "en": [
+        "Shabbat",
+        "Sabbath"
+      ],
+      "cz": [
+        "šabat",
+        "Šabat",
+        "sabat",
+        "Sabat",
+        "sobot",
+        "Sobot"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"ceasing, rest\"; the seventh day.",
+      "cz": "Hebrejsky „ustání, odpočinek“; sedmý den."
+    }
+  },
+  {
+    "key": "talitha-kumi",
+    "kind": "term",
+    "src": "טְלִיתָא קוּמִי · ταλιθα κουμ",
+    "en": {
+      "orig": "Talitha kumi",
+      "trad": "Talitha cumi"
+    },
+    "cz": {
+      "orig": "Talita kumi",
+      "trad": "Talitha kum"
+    },
+    "leak": {
+      "en": [
+        "Talitha"
+      ],
+      "cz": [
+        "Talita",
+        "Talitha"
+      ]
+    },
+    "note": {
+      "en": "Aramaic \"little girl, arise\" (5:41).",
+      "cz": "Aramejsky „děvčátko, vstaň“ (5,41)."
+    }
+  },
+  {
+    "key": "torah",
+    "kind": "term",
+    "src": "תּוֹרָה · νόμος",
+    "en": {
+      "orig": "Torah",
+      "trad": "Law"
+    },
+    "cz": {
+      "orig": "Tóra",
+      "trad": "Zákon"
+    },
+    "leak": {
+      "en": [
+        "Torah",
+        "Law"
+      ],
+      "cz": [
+        "Tór"
+      ]
+    },
+    "note": {
+      "en": "Hebrew \"instruction\"; God's teaching given through Moshe.",
+      "cz": "Hebrejsky „učení, pokyn“; Boží učení dané skrze Mošeho."
+    }
+  }
+]
