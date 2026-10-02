@@ -63,7 +63,7 @@ const NEXT = { orig: "trad", trad: "both", both: "orig" } as const;
 /** Names and terms: original → traditional → both; the label shows the effect. */
 export function NamesButton(): JSX.Element {
   const t = T[reader.lang ?? "en"];
-  const mode = reader.names;
+  const mode = reader.names ?? "orig";
   return (
     <button
       type="button"

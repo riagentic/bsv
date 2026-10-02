@@ -202,7 +202,9 @@ export default function Reader(): JSX.Element {
   const book = index.latest.value?.[lang].find((b) => b.n === reader.book);
   const doc = useResource({
     key: () => (reader.lang && reader.book !== null
-      ? `${reader.lang}/${String(reader.book).padStart(2, "0")}/${reader.names}`
+      ? `${reader.lang}/${String(reader.book).padStart(2, "0")}/${
+        reader.names ?? "orig"
+      }`
       : null),
     open: loadBook,
   });

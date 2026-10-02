@@ -4,7 +4,11 @@ import { resource } from "aio/air";
 import type { Lang } from "../cell.ts";
 import { renderBook } from "../lib/book.ts";
 import type { Names } from "../lib/terms.ts";
-import { type Glossary, parseGlossary } from "../lib/glossary.ts";
+import {
+  type Glossary,
+  lexiconSection,
+  parseGlossary,
+} from "../lib/glossary.ts";
 import { T } from "./i18n.ts";
 
 export type Book = { n: number; id: string; name: string; chapters: number };
@@ -28,19 +32,43 @@ export const loadBook = async (
   { signal }: { signal: AbortSignal },
 ): Promise<string> => {
   const [lang, book, names] = String(key).split("/");
+  const [md, lex] = await Promise.all([
+    get(`text/${lang}/${book}.md`, signal).then((r) => r.text()),
+    names === "both" ? loadTerms(signal) : undefined,
+  ]);
   return renderBook(
-    await (await get(`text/${lang}/${book}.md`, signal)).text(),
+    md,
     T[lang as Lang].changes,
     names as Names,
+    (k) => lex?.get(k)?.[lang as Lang].orig,
   );
 };
 
-/** Parsed dictionary for `lang`. Held by the dictionary view via `useResource`. */
+/** Parsed dictionary for `lang`, ending with the names-and-terms lexicon (one source: terms.json). */
 export const loadGlossary = async (
-  lang: string | number,
+  key: string | number,
   { signal }: { signal: AbortSignal },
-): Promise<Glossary> =>
-  parseGlossary(await (await get(`text/glossary-${lang}.md`, signal)).text());
+): Promise<Glossary> => {
+  const lang = String(key) as Lang;
+  const [md, lex] = await Promise.all([
+    get(`text/glossary-${lang}.md`, signal).then((r) => r.text()),
+    loadTerms(signal),
+  ]);
+  const g = parseGlossary(md);
+  const items = [...lex.values()].map((e) => ({
+    ...e[lang],
+    src: e.src,
+    note: e.note[lang],
+  }));
+  const t = T[lang];
+  return {
+    ...g,
+    sections: [
+      ...g.sections,
+      lexiconSection(t.namesList, items, lang === "cz" ? "cs" : "en"),
+    ],
+  };
+};
 
 export type Term = {
   key: string;
@@ -50,12 +78,11 @@ export type Term = {
   note: Record<Lang, string>;
 };
 
+const loadTerms = async (signal?: AbortSignal) =>
+  new Map(
+    ((await (await get("text/terms.json", signal)).json()) as Term[])
+      .map((t) => [t.key, t]),
+  );
+
 /** Name/term lexicon by key, for the tap card. */
-export const terms = resource(
-  () => 0,
-  async (_, { signal }) =>
-    new Map(
-      ((await (await get("text/terms.json", signal)).json()) as Term[])
-        .map((t) => [t.key, t]),
-    ),
-);
+export const terms = resource(() => 0, (_, { signal }) => loadTerms(signal));

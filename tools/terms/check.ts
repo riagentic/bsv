@@ -8,6 +8,8 @@ type Entry = {
   en: { orig: string; trad: string };
   cz: { orig: string; trad: string };
   leak: { en: string[]; cz: string[] };
+  /** Extra accepted forms by context (NT "Pán" for yhwh); not leaks. */
+  alt?: { en?: string[]; cz?: string[] };
 };
 const ROOT = { en: "bible-kjv-v2", cz: "bible-kjv-v2-cz" } as const;
 const WORD = "/home/dev/code/gen/word";
@@ -18,26 +20,65 @@ if (!(lang in ROOT) || !files.length) {
   console.error("usage: check.ts <en|cz> <NN-Book/BookNN.md>...");
   Deno.exit(2);
 }
-const lex: Entry[] = JSON.parse(
-  await Deno.readTextFile(new URL("../../content/terms.json", import.meta.url)),
-);
-const byKey = new Map(lex.map((e) => [e.key, e]));
+// Base lexicon + pending additions in content/terms.d/ (merge.ts folds them in).
+const CONTENT = new URL("../../content/", import.meta.url);
+const extra = [...Deno.readDirSync(new URL("terms.d/", CONTENT))]
+  .filter((f) => f.name.endsWith(".json")).map((f) => f.name).sort();
+const byKey = new Map<string, Entry>();
+for (
+  // A*.json (conflict resolutions) win over the base, then base, then the rest.
+  const path of [
+    ...extra.filter((f) => f.startsWith("A")).map((f) => `terms.d/${f}`),
+    "terms.json",
+    ...extra.filter((f) => !f.startsWith("A")).map((f) => `terms.d/${f}`),
+  ]
+) {
+  const es: Entry[] = JSON.parse(
+    await Deno.readTextFile(new URL(path, CONTENT)),
+  );
+  for (const e of es) if (!byKey.has(e.key)) byKey.set(e.key, e);
+}
+const lex = [...byKey.values()];
 const fold = (s: string) =>
   s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+// A stem matches words starting with it; "Jose=" matches the whole word only.
 const stemRe = (s: string) =>
   new RegExp(
-    `(?<!\\p{L})${s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[\\p{L}-]*`,
+    `(?<!\\p{L})${s.replace(/=$/, "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}${
+      s.endsWith("=") ? "(?![\\p{L}-])" : "[\\p{L}-]*"
+    }`,
     "gu",
   );
 // Whole words that start with a stem but name something else (Herodias ≠ Herod).
+// allow.json + allow.d/*.json (one file per tagging job, no shared writes).
+// "Word" = allowed everywhere; "Word@NN-Book/BookNN.md" = in that file only.
+const allowFiles = [
+  "allow.json",
+  ...[...Deno.readDirSync(new URL("./allow.d/", import.meta.url))]
+    .filter((f) => f.name.endsWith(".json")).map((f) => `allow.d/${f.name}`),
+];
 const allow = new Set<string>(
-  JSON.parse(
-    await Deno.readTextFile(new URL("./allow.json", import.meta.url)),
-  )[lang],
+  allowFiles.flatMap((f) =>
+    JSON.parse(Deno.readTextFileSync(new URL(`./${f}`, import.meta.url)))[
+      lang
+    ] ?? []
+  ),
 );
-const leaks = lex.flatMap((e) =>
-  e.leak[lang].map((s) => [e.key, s, stemRe(s)] as const)
+const all = lex.flatMap((e) => e.leak[lang].map((s) => [e.key, s] as const));
+// Multi-word stems: a regex each (few). One-word stems: indexed by 2 letters.
+const phrases = all.filter(([, s]) => s.includes(" ")).map(([k, s]) =>
+  [k, s, stemRe(s)] as const
 );
+const byHead = new Map<string, (readonly [string, string])[]>();
+for (const [k, s] of all.filter(([, s]) => !s.includes(" "))) {
+  const h = s.slice(0, 2);
+  byHead.set(h, [...(byHead.get(h) ?? []), [k, s]]);
+}
+const hits = (w: string) =>
+  (byHead.get(w.slice(0, 2)) ?? []).filter(([, s]) =>
+    s.endsWith("=") ? w === s.slice(0, -1) : w.startsWith(s)
+  );
+const WORDS = /(?<!\p{L})\p{L}[\p{L}-]*/gu;
 
 let bad = 0;
 for (const f of files) {
@@ -67,7 +108,8 @@ for (const f of files) {
         if (/[*_]/.test(o + t)) errs.push(`${at} ${k}: markup inside a form`);
         // A form must contain a leak stem or the start of one of its lemmas.
         const stems = [
-          ...e.leak[lang],
+          ...e.leak[lang].map((x) => x.replace(/=$/, "")),
+          ...(e.alt?.[lang] ?? []),
           e[lang].orig.slice(0, 3),
           e[lang].trad.replace(/^the /, "").slice(0, 3),
         ].map(fold);
@@ -77,12 +119,22 @@ for (const f of files) {
           }
         }
       }
+      if (line.startsWith("#")) { // headings are not verse text
+        if (line.includes("⟦")) errs.push(`${at} token in a heading`);
+        return;
+      }
       const rest = line.replace(TOKEN, " ");
       if (/[⟦⟧]/.test(rest)) errs.push(`${at} malformed token`);
-      for (const [k, s, re] of leaks) {
-        for (const [w] of rest.matchAll(re)) {
-          if (!allow.has(w)) errs.push(`${at} untagged "${w}" (${k}: ${s})`);
-        }
+      const found = [
+        ...[...rest.matchAll(WORDS)].flatMap(([w]) =>
+          hits(w).map(([k, s]) => [k, s, w] as const)
+        ),
+        ...phrases.flatMap(([k, s, re]) =>
+          [...rest.matchAll(re)].map(([w]) => [k, s, w] as const)
+        ),
+      ];
+      for (const [k, s, w] of found) {
+        if (!allow.has(w) && !allow.has(`${w}@${f}`)) errs.push(`${at} untagged "${w}" (${k}: ${s})`);
       }
     });
   }

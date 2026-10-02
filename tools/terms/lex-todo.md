@@ -1,0 +1,220 @@
+## L13 Acts (129)
+- ČEP unverified: Rhodé, Beroia, Regium, Adramyttium, Samaria(Samařsko/Samaří), Letnice, Troada, Kenchreje, Mityléna; skipped Hellenists, Levite
+- new key hades (Acts 2:27,31)
+- Sergius Paulus: "Paul" stem catches Paulus/Paula → allow Paulus (EN); CZ Paula conflicts
+- allow EN: Roman(s), Italian, Macedonian(s), Lycaonian, Corinthians, Alexandrians; CZ: Říman*, Areopagita, Alexandrijců
+- base leaks: joseph cz +Joseph, herod cz +Herod, mount-of-olives +Olivet, cyrene +Cyreň; alexander "Alexand" too broad
+- Lod not a leak (Lodě)
+## L08 Ps-Song (148)
+- ČEP doubtful: psalm headings (Maskil, Miktam, Shiggaion, Sheminith, Muth-labben, Alamoth, Leannoth, Higgaion, Jonath-elem-rehokim), Abadon
+- base: joseph cz leak (Josepha, Josephovi); idumea EN leak "Edom" → remove (new key edom); mashiach trad Christ wrong in Ps → new key anointed
+- yah leak "Yah" prefixes Yahweh (label only); key tzevaot (not yhwh-tzevaot) — check consistency vs other groups
+- gath: allow "Gather" then add leak Gath
+- Ps119 CZ headings: Aleph/Waw/Yod/Tsadhe/Qoph English spelling (not verses) — fix separately
+## L14 Rom-Rev (141)
+- leftover-only keys (orig==trad): asher epaphras diotrephes phlegon tryphosa nympha sinai → plain fixes, diff must allow
+- Latin names kept Latin (Paulus, Marcus…); Junia/Julia skipped
+- doubtful: barnabas Bar-Nabba, tartarus→peklo?, beor Bosor?, salem Sálem/Šálem; key tzevaot (Lord Tzevaot)
+- base: jude en trad Judas→Jude; new judah; allow Herodion; simeon new
+## L10 Ezek-Dan (152)
+- NEW key adonai-yhwh (Lord Yahweh / Lord GOD / Panovník Hospodin) → adopt; update TAG.md rule 5
+- base: shabbat/pesach CZ trad vary in ČEP (dny odpočinku, hod beránka) — lemma stays; forms per context OK
+- idumea EN leak Edom → REMOVE (confirmed 2×)
+- unverified ČEP: Sachar, Rabat, Dibla, Chaser-tíkon, Meribót-kadéš, Chelek, Gamádci, Úzal, Minít, Kane, Raema, Lúbijci
+- one key 2 forms: nebuchadnezzar (-retzar), libyans/Kuv, Danel Ezek14/28; cyprus vs kittim split
+- plain leftovers w/o entries: Asher Ashpenaz Oholah Ulai Bamah Rabbah → need leftover-only entries
+## L12 Matt/Luke/John (130)
+- ČEP forms from memory, unflagged: genealogy (Chesron, Jekonjáš, Uzijáš, Mattatiáš, Jozue L3:29, Jišaj, Abiléna, Iturea, Tiberias)
+- hades CZ trad: L12 peklo vs L13 podsvětí → CONFLICT, decide (ČEP Mt16:18 "brány pekel"; Sk 2:27 "hrob"?)
+- amon/asa keys for Matt1 Amos/Asaph; amon no leak (Among); sala = Salmah
+- missing entries: Satan, Hosanna, Levi, Asher, Shealtiel(She'altiel), Salmon, Cosam, Esli, Naggai; Jews/Gentiles/Zealot
+- base mount-of-olives +Olivet (2×)
+- cross-book stems: Ahaz→Ahaziah, Melchi→Melchizedek
+## L11 Hos-Mal (186)
+- base FIXED: joseph cz [Joseph], idumea leak [Idume], mary cz −Mirjam, olives +Olivet, elohim allow (Bohatý…, Godly)
+- joshua-priest key (CZ Jóšua) vs joshua (Jozue)
+- Hosea names w/ glosses: tagging judgement
+- leftover-only: shalman amittai iddo admah adullam selah homer lethech
+- ruach entry: leak "Spirit" too broad (text says Spirit legitimately) → remove; angel/"anděl" leak, choinix "quart" → quarter: review policy: leaks only for forms that can never legitimately stand untagged
+## GENERAL merge policy
+- terms only where text keeps Hebrew/Greek word; don't add translated words (angel, spirit) as leaks
+## L01 Gen (399)
+- ČEP doubtful: avrekh Klekněte, el-elohe-israel, nephilim obři, teraphim domácí bůžci, tidal Tideal, methuselah Metúšelach
+- leftover-only kept (Leah, Shaul, Naamah, Madai…)
+- narrow EN leaks: ham [Cham], eve [Chavvah] (use "Eve=" now!), eber, uz ("Uz=" now), chadad
+- base FIXED: joses leaks exact (Jose=); checker supports "X=" whole-word stems
+- TEXT issues (not lexicon): Gen 21:33 El Olam & 46:3 El rendered *Elohim*; 49:25 Shaddai missing → fidelity fix, separate
+- rodanim orig = text reading; trad Dodanim
+## L05 Kgs (381)
+- no leak: gath EN (use "Gath=" now), asa CZ ("Asa="), kir EN ("Kir=")
+- ČEP doubtful: Jehoadan, rabsaris, arabah pustina, Aštoreta, Tachpenésa
+- keys: jeremiah-libnah (Jirmejáš) vs jeremiah; jair≠jairus; johanan≠john; boaz = pillar vs person (Ruth/L12 boaz!) → CONFLICT expected
+- asherah = pole only
+- base: pesach CZ OT "hod beránka" (ok per token); torah cz +Torah; sidon cz +Sidoňan
+## L09 Isa-Lam (319)
+- ČEP doubtful: rabsaris/rabmag, Kitejci, Araba, Jaezer, Mikajáš, Nebúkadnesar ×2, Gad/Meni/sa'ir/chuqqot (Štěstí/Osud/kozel/zvyklosti)
+- split keys nebuchadnezzar/nebuchadrezzar (vs L10 single key!) → reconcile; rahab-monster, gad-fortune
+- inline-gloss terms (nachamu shalom chesed berit-chadashah tohu-va-vohu meayim neshamah malakh tehillah): tag ONLY where Hebrew stands alone; where text glosses "*x* – meaning", leave plain → consider dropping entries/leaks
+- torah CZ text uses "Zákon" 18× untagged (EN Torah?) → tagger NOTE
+- Ashchenaz → plain fix Ashkenaz (text typo, both langs)
+- leaks omitted: Yah, Kir, Nob, Hanan, Nebo(cz), Gad → use X= stems
+## L07 Ezra-Job (501)
+- ČEP doubtful: Ageus, Samaří, Jafo, Abadón(vs L08 Abadon!), Medvědice, Achmeta, Šúšan, gentilics
+- ESV assumed: Carkas, Chislev, Tebeth, Nephisim
+- keys jeshua (Ezra/Neh high priest, Heb ישוע = Yeshua!) vs L11 joshua-priest (Hag/Zech יהושע) — both valid; shared leak stems with yeshua → check SHARED
+- satan key → other groups skipped; decide
+- uz CZ no leak; booths "Stánk" capital
+## L02 Exod-Deut (424)
+- levi (OT, CZ Lévi) leak flags Mark 2:14 Levi → Mark must be RE-CHECKED + retagged after merge (new keys apply to Mark too)
+- ESV oddities followed: Jeshimon desert, Sion→Sirion, Aram-naharaim→Mesopotamia, Shephelah lowland, Ir-Moab
+- overlaps with L01: egypt canaan esau laban sodom eber … (expect conflicts)
+- clans folded into ancestor key (Kohathites→kohath)
+## L03 Josh-Ruth (554)
+- empty leaks: ai zer adon shema arab anath → X= stems
+- ČEP doubtful: Ábel-mechola, Ábel-keramím, Dana, Ako, Salmah
+- judah new (EN trad Judah) + base jude share CZ stems → fine (SHARED expected)
+- DECISION: drop `angel` (translation choice, not a name/kept term; L05 also dropped) and `adon` (human "lord")
+- L12 cana leak "Cana" hits Canaan → "Cana="
+## L04 Sam (356)
+- base FIXED: abiathar cz +Ebjátar, tyre cz +Sór
+- ESV/ČEP disagreements: bedan (ESV Barak), malkam "their king", gai, elah/naioth/meteg-ammah ČEP common nouns (form per context), arabah
+- renamed keys: valley-of-elah, sheba-ben-bichri, joshua-bethshemite, ashtoreth, malkam
+- ~200 overlapping keys; spacing: Beit El, Ein Gedi; plural lemmas Pelishtim, Chittim, Leviyim; Benayahu vs Benayah
+## TEXT FIXES after tagging (fidelity, separate commit)
+- Gen 21:33, 46:3 El rendered *Elohim*; Gen 49:25 Shaddai missing
+- CZ Ps 106, 136 "Rudé moře" vs EN Sea of Reeds → "Rákosové moře" (check EN)
+- Ashchenaz → Ashkenaz (EN+CZ)
+- Ps 119 CZ letter headings English spelling
+## A3 notes
+- arab = town only; L09 people sense → key `arabs`
+## A5 notes
+- aram leak "Syria" (L04/L05/L11) flags NT Syria → after all A-files, check aram leak has no "Syria"
+- cyprus NT only; Ezek 27:6 → kittim
+- Paulus/Marcus Latin (like Pilatus)
+
+## Tagging waves (units.json, 67 units × en+cz)
+- pilot done: 08 Ruth, 41 Mark (en+cz) — gates OK, Mark NT yhwh fixed (EN the Lord; CZ ČEP per verse)
+- wave 1 launched: units 0–9 (01a–04a) en+cz
+- next: wave 2 = units 10–19, … wave 7 = units 60–66
+- MERGE: allow.d words are global → risky (03a-en "Egyptian" for Lev 11:18 vulture). Scope allow by file/verse or phrase before final check.
+- CHECK cz Gen05 Mahalaleel (key mahalalel deleted: all forms equal)
+- TEXT FIX: Gen 43:14, 48:3 "Almighty *Elohim*" = El Shaddai in MT (en+cz) → retag el-shaddai after fix
+- allow.d global so far: 03a-en Egyptian, 01a-en Aram, 01d-en Paddan
+- TEXT FIX: Gen 14 "Most High *Elohim*" = El Elyon; Gen 17:1, Exod 6:3 "Almighty *Elohim*" = El Shaddai
+- DELETE stray untracked word/bible-kjv-v2/03-Lev/Mark0[1-8].md (old git copies made by a job) after wave 1
+- FOLLOW-UP tag mercy-seat: EN Exod 29–40 (10×, 02c-en skipped), Num 7:89 (04a-en skipped) — diff bug now fixed
+- CZ "Pascha" left untagged everywhere (fem. agreement vs Pesach masc.) — decide later: accept plain or retag with agreement-safe form
+- AFTER 01b/01c-cz: normalize pharaoh in Gen14–40 cz (Para→Paroha…, faraon→faraón); then delete 03-Lev/Mark0*.md strays; commit rib (check.ts scoped allow, el alt, ČEP fixes)
+- wave 2 launched: units 10–19 (04b–09b) en+cz
+- MERGE: normalize singular gentilic tokens to singular keys where pair exists (23 pairs); merge dup keys negev/negeb, salecah/salcah (+scan for more dups by same src)
+- TEXT FIX: Judg 9:46 "*Elohim*-berith" = El-berith (MT אֵל בְּרִית) en+cz
+- TEXT FIX: Num 24:16, Deut 32:8 "Most High — the Most High" broken gloss (Elyon) en(+cz?)
+- MERGE: verify "(ČEP?)" cz trad forms — esp. 56 clan keys from tag-04c-en (Num 26) vs 04c-cz; check bibleserver CEP/4.%20Mojžíšova26
+- TEXT FIX: Judg 13:24 "Shimshon — Samson" gloss leftover in text → token ⟦samson|Shimshon|Samson⟧ after fix
+- REVIEW: cz torah trad casing (Zákon vs ČEP "zákon")
+- MERGE: recheck cz torah trad "Zákon"→"zákon" in later waves
+- TEXT FIX cz: lowercase English-letter leftovers (canaanský Num 21:1 …) — scan /\b[a-z]*(canaan|israel|egypt|moab)[a-zěščřžýáíéůú]*/ in cz
+- REVIEW cz: Jefunneho vs ČEP "syn Jefunův" (Num 13–14, 32, 34, Deut 1, Josh 14–15)
+- MERGE cz: normalize feast tokens orig to Hebrew (Lev 23 ⟦sukkot|svátek stánků|…⟧ → Sukot; check other feasts/Pascha)
+- TEXT FIX cz: Judg 19–20 Gibeah neuter pronouns ("které") vs feminine Giva → "která"; ČEP-check Gibeje/Soreje/Šíla forms
+- MERGE cz: Menašeho→Menaše (gen/acc like Moše); Lev 23 tag nekvašené chleby/Pascha/svátek týdnů like Num 28 & Deut 16
+- REVIEW ČEP: naioth trad "prorocký dům" vs Nájot (1Sam 19–20); ashtaroth-goddesses "Aštart" 31:10
+- NOTE 1Sam 1:1: EN key ephraimites vs CZ key ephrathite (same word אֶפְרָתִי) — unify at merge
+- MERGE 06b-cz: CZ gentilic ADJECTIVE tokens invented orig (Josh 13:3 ⟦canaanites|kenaanitské|kenaanské⟧, 24:12 ⟦amorites|emoritské|emorejské⟧) — decide adjective rule.
+- MERGE 06b-cz: Josh 18:18 ⟦arabah|Aravy|pustiny⟧ — verify ČEP (Araba vs pustina).
+- MERGE 06b-cz: Josh 23:6 ⟦torah|Mošovy Tóry|Mojžíšova zákona⟧ — Moses inside torah token (agreement); accept or split.
+- TEXT 06b-cz: Josh 19:35 CZ "Zer" (צֵר) untouched — check form.
+- MERGE: asherites orig changed Asherim→Asheri (MT הָאָשֵׁרִי; Asherim = poles). maonites Judg 10:12 MT has "Maon" (מָעוֹן) — orig Maonim ok?
+- MERGE 11b-en: ben-hadad CZ forms guessed (ČEP Ben-hadad?); verify. bethel gentilic Beit-HaEli (1Kgs 16:34) ok per MT.
+- MERGE 12a-en: ben-hadad dup (11b-en too); shunammite CZ forms ČEP?; 2Kgs 5:20 Syrian singular put under arameans (aramean key stems lack "Syrian") — normalize.
+- MERGE 12b-en: Yehudim split across keys judeans (2Kgs16:6) / jews (25:25) — unify one key; judahite Yehudit. TEXT: 2Kgs17:26-27 pagan *Elohim* (trad "god") — consider plain "god(s)".
+- MERGE 10b-en: 2Sam 23:31 ⟦bahurim|Bachurimi|Bahurimite⟧ but MT הַבַּרְחֻמִי = Barchumi → give orig Barchumi (alt stem or own key); gilonite CZ ČEP?
+- MERGE 11a-en: shunammite dup (12a-en); shilonite note too narrow (also Ahijah of Shiloh, 1Kgs) — broaden; jachin note same (pillar too?).
+- MERGE 14b-en: meunim (base, en orig==trad, leak Meunites) vs new meunites key — unify (ESV Meunim 1Chr4:41 / Meunites 2Chr26:7); gur-baal CZ ČEP?; arameans trad "Arameans"×14 vs "Syrians" — check ESV per book; aramean/arameans singular split (Arammi under arameans ×2).
+- TEXT 13b-en: 1Chr 12:27, 27:17 "Aaronides" (MT לְאַהֲרֹן "of/for Aharon"; ESV house of Aaron / Aaron) — fix text, token aaron plain Aharon. MERGE: EN arameans trad = ESV "Syrians" in Sam/Kgs/Chr (fixed 1Chr18-19); check 13a leftovers.
+- MERGE 14a-en: 2Chr 20:2 ⟦aram|Aram|Syria⟧ — ESV emends to Edom; MT Aram decides (note it). 2Chr 15:14 shofar trad "horn trumpets" ≠ ESV "horns" (stem check) — add alt "horn". torah Law→Torah ×5 in 2Chr (rule 8) — ensure other books consistent.
+- MERGE 13a-en: hybrid origs ⟦ham|Chamites|Hamites⟧ 1Chr4:40 (MT מִן־חָם "of Cham"), ⟦aaron|Aharonides⟧ (see TEXT) → fix text/orig; lehem CZ ČEP?; dup keys salcah/salecah, malchishua/malchi-shua; gentilic origs Yitrim/Shilonim/Manachtim/Teqoi/Yishmeeli/Chachmoni — verify MT.
+- MERGE 10a-cz: edomites CZ orig Edomim (2Sam8) vs "Edom"/"Edomu" earlier — pick one rule; tob → ish-tob key (Tovu|Íš-tóbu) verify ČEP 2Sam10:6.
+- MERGE 12a-cz: shunammite CZ trad ČEP = Šúnemanka (2Kr 4:12,36), not Šúnemka; athaliah-queen (Atalja) vs athaliah (Ataljáš). FOLLOW-UP CZ: Adonai "Pán" left plain where EN tagged adonai (2Kgs 7:6, 19:23; 1Kgs 3:10,15; 22:6) — tag ⟦adonai|Adonaj|Pán⟧ in CZ.
+- MERGE 11a/11b-cz: sheba — split key for the land (ČEP "Sába", 1Kr 10) vs Šeba; bethel vs beth-el dup keys; Samaria CZ Šomron(m) vs Samaří(f) breaks pronoun agreement 1Kgs 20:1 (and Ramah 15:22) — check; hittite instr "Chittim" (sg, like Jiřím) collides visually with plural — ok? ČEP unverified: Amónka (14:21), Ábel-bét-maaku (15:20), bul.
+- MERGE 13b-cz: 1Chr19:6 mesopotamia vs EN aram-naharaim (MT Aram Naharajim) — unify; tekoites vs tekoa; benjamin vs benjaminite (27:12); gentilic trad forms vs ČEP (Achóchijský, Tekójského); invented orig adjective ⟦damascus|dammeseckém|damašském⟧ 18:6 (see adjective rule). 12b-cz: Samaria tokens swallow verbs/pronouns (⟦samaria|Šomron a obléhal ji|Samaří a obléhal je⟧ 17:5,24; 18:9-10; 18:10a "ji" mismatched on trad) — review; Pascha 2Kgs23:21 trad "velikonoce"? ČEP "hod beránka" — verify; qedeshim 23:7 untagged in both langs; joshua 23:8 ČEP Jozue?
+- MERGE torah CZ trad: ČEP capitalizes per verse (2Kr 22:8,11 "knihu Zákona"; Joz 1:7-8, 8:32-34 "zákona"). Fixed Josh01/08 → lowercase. VERIFY every torah token trad case vs ČEP per verse (Kgs/Chr use capital from jobs 12b/13b/14b, unverified). 14b-cz: Abijah f. 29:1 ⟦abijah|Avija|Abija⟧ (lex trad Abijáš m.) — split?; 25:5 judah land form ČEP?; todah 30:22 untagged; Pascha plain ×10 in 2Chr (Pascha decision).
+- MERGE 14a-cz: 2Chr 8:13 text "sabat" → orig šabat (verify vs rule "šabat" Czech exception); celý→celého inside judah tokens (15:9, 16:6, 25:5) — review; micaiah f. 13:2 Míkajáhu (ČEP ok?).
+- TEXT 13a-cz: 1Chr 14:1 "tesaři"→"tesaře"; 11:46 "Elnaamovi" wording. MERGE: 12-key leak-only dup entries in tag-13a-cz (eleadah…ulla) fold; gentilic gen orig -iho vs trad -ského (Harariho) ok?
+- MERGE 21-en: dup en-gedi/engedi; broaden notes tirzah (city too), kedar (people/place too).
+- MERGE torah EN trad case: ESV per verse ("Book of the Law" vs "the law"); Prov 28-29 fixed → law; verify the 42 "Law" elsewhere. Also CZ same (see above). 20-en: "the Holy One" (qadosh) no key — consider.
+- TEXT 18a-en: Job 9:9 "Ash, Orion, and Kimah — the Bear, Orion, and the Pleiades" gloss doubles in trad mode; Orion (Kesil) untagged — fix text/tokens. Job 1:15 set ⟦sabeans|Sheva|the Sabeans⟧ (MT שְׁבָא).
+- MERGE 15-en: Aramaic sections (Ezra 4:8–6:18, 7:12-26; Dan 2:4–7:28) — orig forms Aramaic? (Kasdaya vs Kasdi); nethinim key missing ("temple servants"); Michmas/Elasah untagged (ESV Ezra = orig) + scoped allow.
+- MERGE 18b-en: bear alt Ayish/Ajiš added (Job 38:32 MT עַיִשׁ; 9:9 עָשׁ = Ash); Mazzaroth 38:32 plain "constellations" → key mazzaroth?; CZ 18b should use Ajiš at 38:32.
+- MERGE 19c-en: Ps 106:28 "Baal of Peor" untagged (would need orig "Baal Peor", ESV "Baal of Peor") — tag with baal-peor.
+- MERGE 18b-cz: qesitah (Gen 33:19, Job 42:11) plain English-letter leftover, no key — add key (CZ kesíta / ESV "piece of money"). Šaddaj declined in Job vs undeclined elsewhere — OK.
+- FOLLOW-UP SWEEP adonai: tag every MT אֲדֹנָי "Lord" as adonai in EN+CZ OT (Ps 1–55 EN left plain; CZ Kgs left plain; 19b/19c EN tagged). One job per language after wave 7.
+- FOLLOW-UP SWEEP echo-gloss: where the text glosses a Hebrew term right after it (Ps 22:1 eli-eli, 45:3 gibbor, 118:22 rosh pinnah, 68:20 moshaot, Prov 20:27 done), fold the gloss into the orig form so trad mode does not repeat it.
+- DONE: shofar alt en "horn" (Ps 98:6 horn, 2Chr 15:14 horns); yhwh alt en "GOD" (Ps 68:20 ⟦yhwh|Yahweh|GOD,⟧ ⟦adonai|Adonai|the Lord⟧); Psalms torah trad → "law" (ESV). 19b-en: Ps 78:9 ephraim "sons of Efrayim" vs ephraimites key.
+- RECHECK after 19a-cz: I lowercased torah trad in Ps001/037/040 CZ while 19a-cz was running — re-apply lowercase at wave end.
+- TEXT/TAG Ps 119:34, 97 CZ plain "Zákon" (pronoun agreement on next line) — tag with multi-line-safe wording or leave; lowercase per ČEP. CZ "Rudé moře" (Ps 106/136) → Rákosové moře already on TEXT list.
+- DONE Isa torah EN trad per ESV (1:10 teaching, 2:3/5:24 law, 8:16/20 teaching, 30:9 instruction); torah alt en teaching/instruction. The per-verse ESV check for all other EN torah tokens is still pending.
+- MERGE 19a-cz: mahalath-tune key (machalat|Machalat) is a workaround for diff.ts rejecting lowercase leftover — fix diff leftover (allow lowercase) and drop key; Ps 19:7 "Zákon" untagged (agreement dokonalý) — maybe phrase token; Ps 25:14 "Sod" untagged no key. RECHECK Ps001/037/040 lowercase: OK.
+- FOLLOW-UP SWEEP torah case/wording: verify every torah token trad vs ČEP (bibleserver CEP) and ESV per verse (ČEP mixes "Zákona"/"zákoně" even in Ezra 7:6; ESV law/Law/teaching/instruction). 15-cz: dup-key risk adar/addan/parosh vs EN; Ezra Aramaic dāt left plain (correct); sukkot/unleavened-bread phrase tokens 3:4, 6:22.
+- MERGE 23a-cz: Isa 7:2,5 arameans span tokens trad "Aramejci se spolčili" — ČEP likely "Aram…" (= orig) → untag if so; 23:10 nile; assyria verb-span tokens 30:31, 23:13.
+- MERGE: Num 21:8 CZ "serafa" (saraf, fiery serpent) — allow-scoped for now; consider key saraf (ČEP ohnivý had). mispereth en leak cleared (orig==trad).
+- MERGE: Num 21:8 CZ "serafa" (saraf) scoped allow (allow.d/merge-cz.json); consider key saraf.
+- TEXT 26c-en: Ezek 43:11 second "laws" where MT צוּרָתוֹ "its design/form" — check text fidelity.
+- MERGE 27-en: arioch note (also Dan 2 captain); azariah note broaden.
+- MERGE 28-en: Hos 2:16 Ishi / Baali untagged (no key) — consider keys; memphis Mof (Hos 9:6) vs Nof lemma ok per MT.
+- DESIGN (systemic): CZ gender agreement across line breaks — Jerusalem/Zion feminine in text (orig) vs masculine ČEP trad (Jeruzalém, Sijón); Lam 1:8/1:17 etc, likely Isa/Jer too. Tokens cannot span \n. Options: allow token over line break (check TOKEN regex + pickForms/poetry <br>), or per-verse trad wording. Decide in merge.
+## wave 5 doubts
+- TEXT Isa 40:1 nachamu gloss on next line → trad repeats "Comfort, comfort my people" (join lines or move gloss).
+- ADONAI sweep: Isa 1–37 EN/CZ untagged vs 38–66 tagged; Isa 51:22 adonayikh plain (ok).
+- DESIGN chesed: "steadfast love" plain in Isa/Jer (no OT precedent) — decide key or leave.
+- ESV check Jer 39:3,13 trad (Samgar-nebo, Sarsechim, Nergal-sar-ezer); Nebuchadrezzar trad=Nebuchadnezzar ok (ESV).
+- CZ Ezek 16:51 ⟦samaria|…|Samaří nespáchalo⟧ — ČEP Samaří is fem? verify; divlah Divlu/Diblu (ČEP?).
+- CZ Ezek torah plurals zákony (43:11, 44:5, 44:24) plain — ok per rule, or tag.
+- CZ Dan 9 ČEP Adonai = "Panovník" vs lexicon Pán — per-verse trad like torah?
+- CZ Dan ancient-of-days Atik Jomin/Věkovitý (new key? check exists) · ⟦persians|Parsi|Perského⟧ hybrid · ⟦medes|Madaj|Méda⟧ → mede key.
+- EN Jer 13:23 ⟦cushites|Kushi|Ethiopian⟧ singular via plural key (cushite stem check fails) — fix stems in merge.
+- CZ Lam/Isa/Jer: Jerusalem/Zion gender (see DESIGN above).
+- TEXT CZ Hos 3:2 homer/lethech → chómer/letek (after diff.ts lowercase leftover fix); drop allow.d/28-cz.json entries then.
+- ČEP check CZ Hos 2 name forms (Lórúchama…), Joel 4:6–8 Šebajcům / Jávanců vs lexicon Šebovcům/Řekům; "Dolina Jóšafatu".
+- MERGE babylonians orig Bavlaye (Aramaic, Ezra) wrong for Hebrew books (Ezek 23 בְנֵי־בָבֶל) → per-book orig "synové Bavelu"/"Bnei Vavel" or separate key.
+- CZ gender: Ezek 32:22 Aššur + fem pronouns (MT fem suffix too; kept Aššur, reverted added "země"); Tyre fem Ezek 26–27; add to DESIGN gender item.
+- allow.d/26b-cz.json Memphis/Théby glosses — ok-ish, review in merge.
+- LEX CZ jehudi trad → Jehúdí; nergal-sharezer CZ trad → Nergal-sareser (ČEP); EN Jer 39 KJV-ish check (above).
+- CZ Jer 31:39 Goa undeclined (stem); Jer 39:4 Arabah "pustině" ČEP?; Jer 35:11 "Syřanů" plain = MT Aram → tag arameans (EN too).
+- ČEP check CZ Jer 10:3 chuqqot trad zvyklosti vs ČEP wording.
+- EN Amos 1:15 malkam tag reverted to plain "their king" (human king per "he and his princes"); check CZ 30-cz does the same.
+- NT κύριος=YHWH: John 12 text had "the Lord", job tagged orig Yahweh (like Mark). Decide NT policy uniformly in sweep; rabbouni trad per verse (Rabboni John 20:16).
+- DONE: John 12:13,38 reverted to plain "the Lord" (rule 3; Luke same). Luke Olivet→Har HaZeitim "mount called" repetition — review.
+- LEX Judean adjective (John 3:22) allowed plain; decide judea adj forms. Zech Branch (Tzemach) key? · review new idiom keys apple-of-the-eye, book-of-remembrance, motzaot (CZ clash).
+- SWEEP NT yhwh: OT quotes "the Lord"/"Pán" → yhwh token (Mark/Matt17–28/John12 done; Luke 13:35,19:38,20:37,20:42, John 1:23, Matt 1–16 (3:3,4:7,4:10,…), Acts, CZ all NT from wave 6) — rule added to TAG before wave 7.
+- TEXT Luke 3:27 She'altiel → Shealtiel (needs leak stem). Luke 3:29 joshua key note (Moses' aide) broaden.
+- CZ Nah 3:8 "Thebes"→plain "No"; ČEP No-amón; fix thebes/no-amon entry (EN uses No-Amon).
+- CZ NT ČEP forms: kidron Cedron (NT), Tiberias "Tiberiadské jezero", "dcero sionská" (zion adj) — check in merge; John 20:16 Rabbouni gloss vs Mistře.
+- CZ Matt: gehenna undeclined "ohnivé Gehenna" (Mark: Gehenny) unify; mashiach trad Kristus vs ČEP Mesiáš per verse (EN uses Messiah per ESV in John) — decide per-verse rule.
+- CZ Luke 22:8 Paschu…ji plain (widen token); Luke 16:23 Hades trad per ČEP "v pekle"?; sanhedrin "rada/velerada" plain.
+- CZ Mal 2:6–9 poučení plain; EN tagged torah → tag CZ too (trad per ČEP "zákon"/"poučení"). Zech 9:2–4 Tyre fem → gender DESIGN item.
+- CZ John 1:42 use cephas key (like EN) instead of peter+gloss; aenon CZ trad → Ainon (ČEP J 3:23).
+- SWEEP CZ "Herod" nominative leftover (26×, NT) → Herodes (plain, orig==trad); add cz leak "Herod=" after (Heroda/Herodovi are correct Czech). jeconiah vs jechoniah keys merge. peter Kefa where text "Peter" (Matt 14–16) review.
+- TEXT Rom 16:3 EN "Priscilla" → prisca token (NA28 Πρίσκα; add leak Priscilla? Acts uses Priscilla legitimately — scope fix).
+- NT "Greek" singular: Rom tagged greeks|Yevani, Gal–2Tim plain → unify (add greek singular key).
+- CZ NT ČEP forms differ from lexicon: Sión/Sijón, Balaám/Bileám, Kore/Kórach, Michael/Míkael → per-verse NT trad or alt keys. Jude 5 EN plain vs CZ yhwh.
+- CZ Rev 4:8 Pán plain vs EN yhwh token (Isa 6:3) → align in NT sweep. Rev ČEP forms Nikolaitů/Michael/Balaám/Neftalím/Manase/Levi → A*.json NT forms.
+- EN Jas 5:4 "Hosts" → tzevaot token (Greek Σαβαώθ; CZ did). Rom 9:29 also Σαβαώθ → both langs.
+- CZ 1Cor 16:8 svátek týdnů → shavuot token (rule 8 allows Hebrew orig); Hebrejové/Hebrejci, Akvila/Akvilas ČEP; Sosthenes, Macedonci leftovers.
+- CZ Acts Greek -ia places undeclined in orig ("z Makedonia", Antiocheia) → decide declension (Makedonie?); Acts 4–6 sanhedrin rada untagged vs 16–28 tagged; fair-havens orig Czech meaning (Kaloi Limenes?); Beroia ČEP Beroje.
+## Cleanup pass 2026-10-02 — left for me after the 9 jobs
+- c3: CZ Pascha plain (fem agreement); 1Chr 12:27 "house of" supplied (MT only לְאַהֲרֹן) → check; CZ 2Chr 24:22 "otec Zecharjův" vs EN "his father"; CZ 1Chr 7:14 aramejská plain
+- c4: Neh 8:17 MT Yeshua bin-Nun but token joshua|Yehoshua; lemmas to follow tokens: agagite Agagovec, buzite Búzský, tekoites Tekójští, benjaminite Benjamínec, hachaliah EN Hacaliah, beth-haccerem EN Beth-haccherem; Gen 33:19 qesitah plain (after c1); EN steadfast-love tokens Ezra 3:11, 7:28, 9:9 only (CZ plain) → untag EN for consistency?
+- c4: adonai CZ trad stays "Pán" (ČEP "Panovník"; Pán = literal, matches EN "the Lord") — decided, no sweep
+- c5: Ps 30:8 Yahweh where MT אֲדֹנָי; Ps 109:21, 141:8 adonai-yhwh where MT order YHWH Adonai; Ps 22:1 gloss on next line; El rendered *Elohim* in Psalms (29:1 …) not swept
+- c8: Luke 1–2 narrative "Lord" plain; CZ Matt 22:35 znalec + torah token vs Luke plain
+- c6 TEXT vs MT (not fixed by job): Isa 3:18 Yahweh where MT אֲדֹנָי; text follows ESV emendations — Isa 15:9 Dibon (MT Dimon), Isa 27:12 Euphrates (MT "the River"), Jer 18:14 Sirion (MT צוּר שָׂדַי), Jer 27:1 Zedekiah (MT Yehoyaqim); Jer 31:20 CZ typo "se po něm touží"
+- c6 FIDELITY SWEEP (own pass): *Elohim* where MT has אֵל — Isa 5:16; 8:10; 12:2; 14:13; 31:3; 40:18; 43:10,12; 45:14,15,21,22; 46:9; Jer 32:18 (Isa 44:8 אֱלוֹהַּ); same in Psalms (c5)
+- c6 lemmas to follow tokens (CZ trad ČEP): nebuchadnezzar Nebúkadnesar, ebed-melech Ebedmelek, rechabites Rekábejci, philistia Pelištea, shear-jashub Šearjašúb, tabeel Tabeal, sabeans-seba Sebajci, goah Goa; manasseh king ČEP Menaše (Jer 15:4); rab-saris/rab-mag; thebes Jer 46:25
+- 2026-10-02 follow-ups sent: c1 (ČEP trads mercy-seat/ephod/paddan-aram/nephilim, el-elyon merge), c2 (pesach, sela, milcom, Ruth 4:21, Judg 10:12; El sweep still to send), c3–c7 (EL SWEEP אֵל→`el` token + MT doubts). c9 (Acts–Rev) first run still going.
+- decided: bedan / gai keep EN trad Bedan / Gai (MT; ESV emends); adonai cz trad Pán
+- c1 left: shabbat/pesach ČEP wording, Gen 37:36 Medanim (token says Midyanim) → fix, Num 28:17 macot CZ only, CZ adjectives tagged unevenly, Pascha plain ×17
+- c2 left: `anointed` now tagged across Samuel (mashiach) — keep; CZ singular gentilics declined unevenly
+- c7 left: Daniel CZ elyon Aramaic Ilaja/Eljonin; Dareios vs ČEP Darjaveš; Meribót-kadéš
+- 2026-10-02 round 2 done for c1–c7 (EL SWEEP whole OT; MT fixes). Left open on purpose: rab-saris/rab-mag ČEP paraphrase; manasseh-king split (ČEP Menaše, Jer 15:4, 2Kgs 21); greeks Joel 3:6 (ČEP "synům Jávanců", MT "sons of the Yevanim" — text lacks "sons of"? check EN+CZ); meribah-kadesh ČEP "Vody sváru v Kádeši"; Job 21:17, 24:23, 4:6, 20:23, Neh 6:9 divine name supplied where MT has none; Job 12:6b, 38:7 benei elohim untagged; Ezek 28:2,9 El as "a god"; CZ notes sections (## Notes) still carry English-letter names (Josephovi, Pharaoh…) — not checked by check.ts
+- 2026-10-02 DONE: all 9 cleanup jobs + round 2, lexicon merged (terms.d empty), committed rib 5efc83e / word 00b79ad, APK 0.1.23 built. c9 left: hades/sheol CZ ČEP wording per verse (hrob, svět mrtvých, říše smrti) needs stems; Jude 11 "Koreově" derived form; Acts 4:15, 23:1 sanhedrin trad = text's "rada" (ČEP zasedání/shromáždění).

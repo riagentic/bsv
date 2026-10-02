@@ -38,6 +38,34 @@ export function parseGlossary(md: string): Glossary {
   };
 }
 
+/** One lexicon entry in one language (see content/terms.json). */
+export type Lemma = { orig: string; trad: string; src: string; note: string };
+
+const esc = (s: string) =>
+  s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]!);
+
+/** The names-and-terms lexicon as one dictionary section, A–Z by original. */
+export function lexiconSection(
+  title: string,
+  items: Lemma[],
+  locale: string,
+): Section {
+  return {
+    title,
+    entries: [...items]
+      .sort((a, b) => a.orig.localeCompare(b.orig, locale))
+      .map((e) => {
+        const term = `${e.orig} · ${e.trad}`;
+        return {
+          term,
+          html: `<span class="term-src">${esc(e.src)}</span> ${esc(e.note)}`,
+          key: fold(`${e.src} ${e.note}`),
+          hit: fold(term),
+        };
+      }),
+  };
+}
+
 /** Entries matching `q`: term matches first, then matches in the text. */
 export function searchGlossary(g: Glossary, q: string): Entry[] {
   const f = fold(q.trim());

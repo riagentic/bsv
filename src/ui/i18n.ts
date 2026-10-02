@@ -22,11 +22,16 @@ export const T = {
     clear: "Clear",
     names: "Names and terms",
     orig: "original",
-    trad: "traditional",
-    both: "original with traditional",
+    trad: "familiar",
+    both: "familiar, with the original",
     origShort: "Yeshua",
     tradShort: "Jesus",
-    bothShort: "Yeshua·Jesus",
+    bothShort: "Jesus (Yeshua)",
+    namesHint:
+      "How should names and terms read? You can switch any time with the button at the top.",
+    sample:
+      "The beginning of the gospel of ⟦yeshua|Yeshua|Jesus⟧ ⟦mashiach|the Mashiach|Christ⟧, the Son of ⟦elohim|Elohim|God⟧.",
+    namesList: "Names and terms",
   },
   cz: {
     ot: "Starý zákon",
@@ -50,10 +55,15 @@ export const T = {
     names: "Jména a pojmy",
     orig: "původní",
     trad: "tradiční",
-    both: "původní s tradičními",
+    both: "tradiční, s původními",
     origShort: "Ješua",
     tradShort: "Ježíš",
-    bothShort: "Ješua·Ježíš",
+    bothShort: "Ježíš (Ješua)",
+    namesHint:
+      "Jak mají znít jména a pojmy? Kdykoli to změníte tlačítkem nahoře.",
+    sample:
+      "Počátek evangelia o ⟦yeshua|Ješuovi|Ježíši⟧ ⟦mashiach|Mašiachovi|Kristu⟧, ⟦elohim|Synu Elohim|Synu Božím⟧.",
+    namesList: "Jména a pojmy",
   },
 } as const satisfies Record<Lang, Record<string, string>>;
 

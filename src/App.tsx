@@ -8,6 +8,7 @@ import Books from "./ui/Books.tsx";
 import { dict, goUp, isDark } from "./ui/chrome.tsx";
 import Dictionary from "./ui/Dictionary.tsx";
 import Reader from "./ui/Reader.tsx";
+import NamesChoice from "./ui/NamesChoice.tsx";
 import Welcome from "./ui/Welcome.tsx";
 
 (globalThis as { __back?: () => boolean }).__back = goUp;
@@ -24,7 +25,13 @@ export default function App(): JSX.Element {
   });
   return (
     <>
-      {depth === 0 ? <Welcome /> : depth === 1 ? <Books /> : <Reader />}
+      {depth === 0
+        ? <Welcome />
+        : reader.names === null
+        ? <NamesChoice />
+        : depth === 1
+        ? <Books />
+        : <Reader />}
       {dict.value && depth > 0 ? <Dictionary /> : null}
     </>
   );

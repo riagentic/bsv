@@ -12,26 +12,30 @@ export function renderBook(
   md: string,
   changesLabel: string,
   names: Names = "orig",
+  lemma?: (key: string) => string | undefined,
 ): string {
-  return pickForms(md, names).split(/^(?=# )/m).filter((c) => c.trim()).map(
-    (chunk, i) => {
-      const c = i + 1;
-      const cut = chunk.search(CHANGES);
-      const body = (cut < 0 ? chunk : chunk.slice(0, cut))
-        .replace(
-          VERSE,
-          (_, pre, v) => `${pre}<sup class="v" id="c${c}v${v}">${v}</sup>`,
-        );
-      const notes = cut < 0 ? "" : chunk.slice(cut).replace(CHANGES, "").trim();
-      return `<section class="chapter" id="c${c}">${parse(body)}${
-        notes
-          ? `<details class="changes"><summary>${changesLabel}</summary>${
-            parse(notes)
-          }</details>`
-          : ""
-      }</section>`;
-    },
-  ).join("");
+  return pickForms(md, names, lemma).split(/^(?=# )/m).filter((c) => c.trim())
+    .map(
+      (chunk, i) => {
+        const c = i + 1;
+        const cut = chunk.search(CHANGES);
+        const body = (cut < 0 ? chunk : chunk.slice(0, cut))
+          .replace(
+            VERSE,
+            (_, pre, v) => `${pre}<sup class="v" id="c${c}v${v}">${v}</sup>`,
+          );
+        const notes = cut < 0
+          ? ""
+          : chunk.slice(cut).replace(CHANGES, "").trim();
+        return `<section class="chapter" id="c${c}">${parse(body)}${
+          notes
+            ? `<details class="changes"><summary>${changesLabel}</summary>${
+              parse(notes)
+            }</details>`
+            : ""
+        }</section>`;
+      },
+    ).join("");
 }
 
 const parse = (md: string) =>

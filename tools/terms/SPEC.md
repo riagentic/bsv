@@ -47,6 +47,8 @@ Jerusalem, Isaiah…) must disappear: in CZ, both forms are Czech.
 
 - `kind`: divine | person | place | people | term.
 - `en`/`cz`: the lemma (dictionary form) of each form.
+- `alt` (optional): extra accepted form stems by context, e.g. yhwh CZ NT `Pán`;
+  not leaks.
 - `leak`: word stems that must NOT appear untagged in that language's verses
   (both lemmas' stems plus old leftover forms). Empty when orig == trad.
 - One key per referent where traditions split: `jacob` (the patriarch, EN trad

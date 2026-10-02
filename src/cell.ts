@@ -10,8 +10,8 @@ export type State = {
   book: number | null;
   zoom: number;
   theme: Theme;
-  /** Names and terms: original, traditional, or original with a gloss. */
-  names: Names;
+  /** Names and terms: original, traditional, or traditional + original gloss; null until chosen. */
+  names: Names | null;
   /** book number → anchor id of the first visible verse ("c3v12"). */
   pos: Record<string, string>;
   /** lang → last opened book, for "continue reading". */
@@ -24,7 +24,7 @@ export const reader = cell("reader", {
     book: null,
     zoom: 100,
     theme: "auto",
-    names: "orig",
+    names: null,
     pos: {},
     last: {},
   } as State,

@@ -1,9 +1,13 @@
 import { assert, assertEquals } from "@std/assert";
 import { renderBook } from "../src/lib/book.ts";
 import { clampZoom, pinchZoom } from "../src/lib/zoom.ts";
-import { parseGlossary, searchGlossary } from "../src/lib/glossary.ts";
+import {
+  lexiconSection,
+  parseGlossary,
+  searchGlossary,
+} from "../src/lib/glossary.ts";
 import { chapterCount } from "../src/ui/i18n.ts";
-import { pickForms } from "../src/lib/terms.ts";
+import { pickForms, PLAIN } from "../src/lib/terms.ts";
 
 const MD = `# Psalm 1
 
@@ -106,26 +110,59 @@ Deno.test("glossary: parse, both files well-formed, forgiving search", async () 
   }
 });
 
-Deno.test("pickForms: original, traditional, and one gloss per chapter", () => {
+Deno.test("pickForms: original, familiar, and familiar + original gloss once per chapter", () => {
   const md =
-    "# A\n\n[1] ⟦yeshua|Ješua|Ježíš⟧ a ⟦yeshua|Ješuovi|Ježíšovi⟧\n\n# B\n\n[1] ⟦yeshua|Ješua|Ježíš⟧\n";
+    "# A\n\n[1] ⟦yeshua|Ješua|Ježíš⟧ a ⟦yeshua|Ješuovi|Ježíšovi⟧\n\n# B\n\n[1] ⟦yeshua|Ješuovi|Ježíšovi⟧\n";
   const s = (k: string, f: string) =>
     `<span class="t" data-k="${k}">${f}</span>`;
   assertEquals(
     pickForms(md, "orig"),
     `# A\n\n[1] ${s("yeshua", "Ješua")} a ${
       s("yeshua", "Ješuovi")
-    }\n\n# B\n\n[1] ${s("yeshua", "Ješua")}\n`,
+    }\n\n# B\n\n[1] ${s("yeshua", "Ješuovi")}\n`,
   );
   assert(pickForms(md, "trad").includes(s("yeshua", "Ježíšovi")));
-  const both = pickForms(md, "both");
+  const both = pickForms(md, "both", () => "Ješua");
   assertEquals(both.match(/class="gloss"/g)?.length, 2);
   assert(
     both.includes(
-      `${s("yeshua", "Ješua")}<span class="gloss"> (Ježíš)</span> a ${
-        s("yeshua", "Ješuovi")
+      `${s("yeshua", "Ježíš")}<span class="gloss"> (Ješua)</span> a ${
+        s("yeshua", "Ježíšovi")
       }\n`,
     ),
   );
+  assert(
+    both.includes(
+      `${s("yeshua", "Ježíšovi")}<span class="gloss"> (Ješua)</span>`,
+    ),
+  );
   assertEquals(pickForms("plain", "trad"), "plain");
+});
+
+Deno.test("pickForms PLAIN: bare words, gloss in brackets (exports)", () => {
+  const md = "# A\n\n[1] ⟦elohim|Elohim|God⟧ and ⟦elohim|Elohim|God⟧\n";
+  assertEquals(
+    pickForms(md, "orig", undefined, PLAIN),
+    "# A\n\n[1] Elohim and Elohim\n",
+  );
+  assertEquals(
+    pickForms(md, "both", undefined, PLAIN),
+    "# A\n\n[1] God (Elohim) and God\n",
+  );
+});
+
+Deno.test("lexiconSection: A–Z by original, searchable by familiar name and note", () => {
+  const s = lexiconSection("Names", [
+    { orig: "Moše", trad: "Mojžíš", src: "מֹשֶׁה", note: "Vytažený <z vody>." },
+    { orig: "Avraham", trad: "Abraham", src: "אַבְרָהָם", note: "Otec mnohých." },
+  ], "cs");
+  assertEquals(s.entries.map((e) => e.term), [
+    "Avraham · Abraham",
+    "Moše · Mojžíš",
+  ]);
+  assert(s.entries[1].html.includes("&lt;z vody&gt;"));
+  assertEquals(
+    searchGlossary({ title: "", intro: "", sections: [s] }, "mojzis")[0].term,
+    "Moše · Mojžíš",
+  );
 });

@@ -685,3 +685,33 @@ button:focus-visible {
     display: none;
   } /* phones: pinch zooms and shows its own badge; room for the names switch */
 }
+
+/* ── Names choice (first run) ────────────────────────────── */
+
+.names-choice {
+  justify-content: safe center;
+  overflow-y: auto;
+}
+.names-hint {
+  margin: -18px 0 0;
+  max-width: 440px;
+  text-align: center;
+  color: var(--text-2);
+}
+.names-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 440px;
+}
+.names-card {
+  align-items: flex-start;
+  padding: 16px 18px;
+  text-align: left;
+}
+.names-sample {
+  font-family: var(--font-read);
+  font-size: 17px;
+  line-height: 1.45;
+}

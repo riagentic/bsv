@@ -76,7 +76,7 @@
     "doctor": "deno run -A ./dep/aio/src/server/doctor.ts",
     "am": "deno run -A ./dep/aio/src/am.ts",
     "install:electron": "deno run -A ./dep/aio/src/electron-install.ts",
-    "text": "deno run -A scripts/text.ts",
+    "text": "deno run -A scripts/text.ts && deno run -A scripts/export.ts",
     "icon": "deno run -A scripts/icon.ts"
   },
   "assets": {
