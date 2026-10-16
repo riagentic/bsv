@@ -2104,13 +2104,13 @@
   {
     "key": "talitha-kumi",
     "kind": "term",
-    "src": "טְלִיתָא קוּמִי · ταλιθα κουμ",
+    "src": "טְלִיתָא קוּם · ταλιθα κουμ",
     "en": {
-      "orig": "Talitha kumi",
+      "orig": "Talitha kum",
       "trad": "Talitha cumi"
     },
     "cz": {
-      "orig": "Talita kumi",
+      "orig": "Talita kum",
       "trad": "Talitha kum"
     },
     "leak": {
@@ -4447,8 +4447,7 @@
       "cz": [
         "Beor",
         "Beór",
-        "Be'or",
-        "Bosor"
+        "Be'or"
       ]
     },
     "note": {
@@ -63128,6 +63127,33 @@
     "note": {
       "en": "Singular of Elohim, \"God\", frequent in Job.",
       "cz": "Singulár slova Elohim, „Bůh“, častý v Jóbovi."
+    },
+    "alt": {
+      "cz": [
+        "Boh",
+        "Bož"
+      ]
+    }
+  },
+  {
+    "key": "elah-aram",
+    "kind": "divine",
+    "src": "אֱלָהּ",
+    "en": {
+      "orig": "Elah",
+      "trad": "God"
+    },
+    "cz": {
+      "orig": "Elah",
+      "trad": "Bůh"
+    },
+    "leak": {
+      "en": [],
+      "cz": []
+    },
+    "note": {
+      "en": "Aramaic word for \"God\" (Ezra, Daniel, Jer 10:11); emphatic form Elaha.",
+      "cz": "Aramejské slovo pro „Bůh“ (Ezdráš, Daniel, Jr 10,11); určitý tvar Elaha."
     },
     "alt": {
       "cz": [

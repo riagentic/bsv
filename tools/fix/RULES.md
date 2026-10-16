@@ -19,8 +19,15 @@ Files:
   so in Changes.
 - A Septuagint (LXX) reading is NOT the original Hebrew. Where the verse follows
   the LXX against a sound MT, restore the MT and mention the LXX in Changes.
-- NT: the critical Greek text (NA28 / SBLGNT). The 16 omitted verses stay
-  omitted.
+- NT: the Greek of the verse is decided on this machine, never from memory.
+  `tools/src/orig.ts` prints the SBLGNT; `tools/src/app.ts` prints, for every
+  place where editions differ, what the four critical editions read (SBLGNT,
+  Westcott-Hort, Tregelles, NA28) and which reading wins: the one most of the
+  four print; on a 2–2 tie NA28 decides; a reading marked `em` (an editor's
+  emendation that no Greek manuscript has) never wins. So no single editor's
+  choice stands alone in the verse. Where the outcome changes the translation,
+  Changes names the other reading and its editions. The Byzantine text (RP) is
+  shown but does not vote. The 16 omitted verses stay omitted.
 - Rendering: correct > readable. Choose the more readable form ONLY between
   forms that are equally faithful to the original; never trade away any original
   meaning, nuance or wording for readability. The divine names follow the
