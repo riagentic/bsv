@@ -1,6 +1,6 @@
 # Source pass — every verse from the original (binding)
 
-Goal: each verse of the Bible Source Translation (BST) says what the original
+Goal: each verse of the Bible Source Version (BSV) says what the original
 says, in our own words. `tools/fix/RULES.md` stays binding (text base, divine
 names, correct > readable), and so does `tools/fix/WORDS.md` (one original word
 → one rendering across books). This pass adds the points below. Model:

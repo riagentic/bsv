@@ -99,6 +99,10 @@ button:focus-visible {
 .welcome-icon {
   width: 112px;
   height: 112px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
   filter: drop-shadow(0 10px 24px rgba(16, 23, 49, 0.28));
 }
 .welcome-icon svg {
@@ -625,6 +629,26 @@ button:focus-visible {
   font-size: 1.9em;
   text-align: center;
   color: var(--ink-navy);
+}
+/* About: one centered column, spread over the screen height. */
+.about {
+  min-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.2em;
+  padding: 6vh 18px;
+  text-align: center;
+}
+.about > * {
+  margin: 0;
+}
+.about-dedication {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1em;
+  color: var(--accent);
 }
 .glossary-intro {
   text-align: center;

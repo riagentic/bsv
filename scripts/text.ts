@@ -147,7 +147,13 @@ if (import.meta.main) {
     );
   }
   czFiles.set("terms.json", await Deno.readTextFile("content/terms.json"));
-  const index = JSON.stringify({ en, cz });
+  // Same number as the build (aio: deno.json "M.m" + git commit count); run this right before `am build`.
+  const { version } = JSON.parse(await Deno.readTextFile("deno.json"));
+  const commits = new TextDecoder().decode(
+    (await new Deno.Command("git", { args: ["rev-list", "--count", "HEAD"] })
+      .output()).stdout,
+  ).trim();
+  const index = JSON.stringify({ en, cz, app: `${version}.${commits}` });
   for (const out of OUTS) {
     await Deno.remove(out, { recursive: true }).catch((e) => {
       if (!(e instanceof Deno.errors.NotFound)) throw e;

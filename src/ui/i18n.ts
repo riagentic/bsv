@@ -32,6 +32,14 @@ export const T = {
     sample:
       "The beginning of the gospel of ⟦yeshua|Yeshua|Jesus⟧ ⟦mashiach|the Mashiach|Christ⟧, the Son of ⟦elohim|Elohim|God⟧.",
     namesList: "Names and terms",
+    about: "About",
+    aboutText:
+      "A new translation straight from the Hebrew and Greek originals, in English and Czech. Names and terms can be read in their original or familiar form.",
+    aboutRev: "Revision 1 (RC1)",
+    appVersion: "App version",
+    license: "License: text CC BY-SA 4.0 · app MIT",
+    producedBy: "Produced by",
+    dedication: "For the glory of our Lord and Savior Jesus Christ",
   },
   cz: {
     ot: "Starý zákon",
@@ -64,6 +72,14 @@ export const T = {
     sample:
       "Počátek evangelia o ⟦yeshua|Ješuovi|Ježíši⟧ ⟦mashiach|Mašiachovi|Kristu⟧, ⟦elohim|Synu Elohim|Synu Božím⟧.",
     namesList: "Jména a pojmy",
+    about: "O aplikaci",
+    aboutText:
+      "Nový překlad přímo z hebrejských a řeckých originálů, v angličtině a češtině. Jména a pojmy lze číst v původní nebo tradiční podobě.",
+    aboutRev: "Revize 1 (RC1)",
+    appVersion: "Verze aplikace",
+    license: "Licence: text CC BY-SA 4.0 · aplikace MIT",
+    producedBy: "Zpracování:",
+    dedication: "Ke slávě našeho Pána a Spasitele Ježíše Krista",
   },
 } as const satisfies Record<Lang, Record<string, string>>;
 

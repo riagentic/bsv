@@ -1,6 +1,6 @@
 # Source pass — worker brief
 
-You are revising the Bible Source Translation so that every verse says exactly
+You are revising the Bible Source Version so that every verse says exactly
 what the original says, in the project's own words. Highest fidelity to the
 original is the only goal: never shift, soften, smooth or add meaning.
 

@@ -1,6 +1,7 @@
 // First screen: pick the language.
 import type { JSX } from "aio";
 import { reader } from "../cell.ts";
+import { about } from "./chrome.tsx";
 import { index } from "./data.ts";
 import { MARK } from "./mark.ts";
 
@@ -8,9 +9,12 @@ export default function Welcome(): JSX.Element {
   const czReady = (index.latest.value?.cz.length ?? 0) > 0;
   return (
     <main class="welcome">
-      <div
+      <button
+        type="button"
         class="welcome-icon"
-        aria-hidden="true"
+        aria-label="About"
+        title="About"
+        onClick={() => about.set(true)}
         dangerouslySetInnerHTML={{ __html: MARK }}
       />
       <h1 class="welcome-title">Bible</h1>

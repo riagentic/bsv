@@ -12,7 +12,8 @@ import {
 import { T } from "./i18n.ts";
 
 export type Book = { n: number; id: string; name: string; chapters: number };
-export type Index = Record<Lang, Book[]>;
+/** Books per language + the app version (`deno task text`). */
+export type Index = Record<Lang, Book[]> & { app: string };
 
 const get = async (url: string, signal?: AbortSignal) => {
   const res = await fetch(url, { signal });

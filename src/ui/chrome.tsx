@@ -2,7 +2,7 @@
 // (reader → books → language) for the toolbar, Esc / Alt+← and Android Back.
 import type { JSX } from "aio";
 import { signal } from "aio/air";
-import { reader } from "../cell.ts";
+import { type Lang, reader } from "../cell.ts";
 import { index } from "./data.ts";
 import { T } from "./i18n.ts";
 import { Icon } from "./Icon.tsx";
@@ -12,11 +12,22 @@ export const picker = signal(false);
 /** Dictionary layer over the current screen; "up" closes it first. */
 export const dict = signal(false);
 
+/** About layer over the current screen; "up" closes it first. */
+export const about = signal(false);
+/** About's own language (its CZ/EN switch); null = the reader's language. */
+export const aboutLang = signal<Lang | null>(null);
+
+export function closeAbout(): void {
+  about.set(false);
+  aboutLang.set(null);
+}
+
 /** Key of the tapped name/term; its card closes first on "up". */
 export const term = signal<string | null>(null);
 
 /** Go one level up; false at the language screen (Android then leaves the app). */
 export function goUp(): boolean {
+  if (about.value) return closeAbout(), true;
   if (term.value) return term.set(null), true;
   if (picker.value) return picker.set(false), true;
   if (dict.value) return dict.set(false), true;

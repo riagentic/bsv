@@ -5,7 +5,8 @@ import type { JSX } from "aio";
 import { afterRender, onWindowEvent } from "aio/air";
 import { reader } from "./cell.ts";
 import Books from "./ui/Books.tsx";
-import { dict, goUp, isDark } from "./ui/chrome.tsx";
+import About from "./ui/About.tsx";
+import { about, dict, goUp, isDark } from "./ui/chrome.tsx";
 import Dictionary from "./ui/Dictionary.tsx";
 import Reader from "./ui/Reader.tsx";
 import NamesChoice from "./ui/NamesChoice.tsx";
@@ -33,6 +34,7 @@ export default function App(): JSX.Element {
         ? <Books />
         : <Reader />}
       {dict.value && depth > 0 ? <Dictionary /> : null}
+      {about.value ? <About /> : null}
     </>
   );
 }
