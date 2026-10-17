@@ -1,7 +1,7 @@
 // Validates Czech chapters against their EN source (tools/cz/STYLE.md §3).
 // usage: deno run -A tools/cz/check.ts [01-Gen/Gen01.md …]   (no args = every chapter; --summary)
-const EN = "/home/dev/code/gen/word/bible-kjv-v2";
-const CZ = "/home/dev/code/gen/word/bible-kjv-v2-cz";
+const EN = "/home/dev/code/gen/word/bsv-en";
+const CZ = "/home/dev/code/gen/word/bsv-cz";
 const NAMES =
   "Genesis|Exodus|Leviticus|Numeri|Deuteronomium|Jozue|Soudců|Rút|1. Samuelova|2. Samuelova|1. Královská|2. Královská|1. Paralipomenon|2. Paralipomenon|Ezdráš|Nehemjáš|Ester|Jób|Žalm|Přísloví|Kazatel|Píseň písní|Izajáš|Jeremjáš|Pláč|Ezechiel|Daniel|Ozeáš|Jóel|Ámos|Abdijáš|Jonáš|Micheáš|Nahum|Abakuk|Sofonjáš|Ageus|Zacharjáš|Malachiáš|Matouš|Marek|Lukáš|Jan|Skutky|Římanům|1. Korintským|2. Korintským|Galatským|Efezským|Filipským|Koloským|1. Tesalonickým|2. Tesalonickým|1. Timoteovi|2. Timoteovi|Titovi|Filemonovi|Židům|Jakubův|1. Petrův|2. Petrův|1. Janův|2. Janův|3. Janův|Judův|Zjevení"
     .split("|");

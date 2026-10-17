@@ -18,3 +18,11 @@ text/
 android/app/src/main/assets/text/
 # source data (symlinked / large)
 bible/json/
+
+# OS / editor / local tool state
+.DS_Store
+*.log
+.claude/settings.local.json
+
+# internal notes (todo), not published
+untracked/

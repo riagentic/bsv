@@ -5,11 +5,9 @@ tradition decides; the original text does.
 
 Files:
 
-- EN: `/home/dev/code/gen/word/bible-kjv-v2/NN-Book/BookNN.md`
-- CZ: `/home/dev/code/gen/word/bible-kjv-v2-cz/NN-Book/BookNN.md` (style:
+- EN: `/home/dev/code/gen/word/bsv-en/NN-Book/BookNN.md`
+- CZ: `/home/dev/code/gen/word/bsv-cz/NN-Book/BookNN.md` (style:
   `/home/dev/code/gen/rib/tools/cz/STYLE.md`)
-- Issue logs: `/home/dev/code/gen/word/bible-kjv-v2-cz/_issues/bNN.md`: one line
-  per item.
 
 ## Text base
 

@@ -1,44 +1,37 @@
-# rib
+# Bible Source Version (BSV) — reader app
 
-An [aio](https://github.com/riagentic/aio) app (assets template).
+The reader for the **Bible Source Version (BSV)**, a translation from the
+Hebrew, Aramaic and Greek in English and Czech. Names and terms read in their
+original form, familiar form, or both. Desktop (Electron) and Android, built on
+[aio](https://github.com/riagentic/aio).
 
-> **Cloned this repo?** The framework link, `.env`, and `node_modules` are
-> gitignored — run `am fix` once (after installing `am` via the aio install
-> script) to repair them, then `deno task dev` works.
+![John 1 in the BSV reader](docs/screenshot.png)
 
-```sh
-deno task dev              # run — electron (flags pass through, see below)
-deno task test             # run the starter test
-deno task compile          # build the default target (electron)
-deno task build            # build every target in deno.json build.targets → dist/
-deno task check            # type-check src/ + tests/, then am check
-```
+The text lives in the [word](https://github.com/riagentic/word) repo
+(`bsv-en`, `bsv-cz`) and is linked here as `bible/word`.
 
-`deno task dev` runs in the FOREGROUND and dies with the terminal that started
-it. That is right for a person and wrong for an agent, whose every command is a
-fresh short-lived shell — one report lost its app about eight times in a session
-before finding the answer. `deno task am start` is the supervised background
-form: it takes a lock, waits for health, and `am stop` / `am status` / `am logs`
-address it afterwards.
-
-The app's version is `major.minor` in deno.json (`"version": "0.1"`) — the build
-number is derived from the commit count, so every artifact is named
-`rib-0.1.<build>…` and reports that version (`-dirty.<hash>` when built from
-uncommitted changes).
-
-**`dev` flags pass through** — one task, any shell:
+## Run and build
 
 ```sh
-deno task dev --client=electron     # desktop window (auto-installs Electron)
-deno task dev --client=cli          # terminal client
-deno task dev --client=server-only  # headless server
-deno task dev --expose              # reachable on the LAN (prints pair PIN)
+am fix                       # once after a clone: framework link, node_modules
+deno task text               # bible/word → text/ (+ the app version); run before a build
+am start                     # run the desktop app (am stop to end it)
+deno task check && deno task lint && deno task test
+am build android electron --platforms=linux,windows,macos,macos-arm64  # → dist/bsv-<version>.apk, .AppImage, Windows .zip, macOS .dmg
 ```
 
-**Ship more targets** by listing them in deno.json —
-`"build": { "targets": ["electron", "electron", "android"] }` — then
-`deno task build` (or one-off: `deno task build --targets=electron`). Run
-`deno task build --list` for every target name.
+The version is `"version"` in deno.json (major.minor) plus the git commit count.
 
-State lives in `src/cell.ts`, UI in `src/App.tsx`, entry in `src/app.ts`. Manage
-a running app with `deno task am` (status, state, logs, …).
+## Map
+
+- `src/` — the app: `cell.ts` (state), `App.tsx`, `ui/` (screens, About), `lib/` (book rendering, names, dictionary)
+- `content/` — `terms.json` (names and terms lexicon), dictionary glossaries
+- `scripts/` — `text.ts` (builds `text/`), `export.ts`, `icon.ts`
+- `tools/fix/` — the source-pass rules (`BRIEF.md`, `OT.md`, cautions per book group), word lists (`WORDS.md` Greek, `WORDS-HE.md` Hebrew), review log (`log/source.md`)
+- `tools/terms/` — name/term token rules and the checker (`check.ts`)
+- `tools/cz/` — Czech style guide and checker
+- `tools/src/` — `orig.ts` (original text per chapter), `words.ts` (word-list rows per chapter)
+
+## License
+
+App: MIT ([LICENSE](LICENSE)). Text: CC BY-SA 4.0 (see the word repo).

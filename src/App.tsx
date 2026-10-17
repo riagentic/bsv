@@ -1,8 +1,8 @@
 // Language → books → reader, with the dictionary as a layer on top. Navigation is cell state (no URL router: the APK
-// serves the page from /assets/). Android Back calls window.__back (see the
-// android/ MainActivity overlay); Esc / Alt+← do the same on desktop.
+// serves the page from /assets/). Android Back goes one level up (onBackButton);
+// Esc / Alt+← do the same on desktop.
 import type { JSX } from "aio";
-import { afterRender, onWindowEvent } from "aio/air";
+import { afterRender, onBackButton, onWindowEvent } from "aio/air";
 import { reader } from "./cell.ts";
 import Books from "./ui/Books.tsx";
 import About from "./ui/About.tsx";
@@ -12,7 +12,7 @@ import Reader from "./ui/Reader.tsx";
 import NamesChoice from "./ui/NamesChoice.tsx";
 import Welcome from "./ui/Welcome.tsx";
 
-(globalThis as { __back?: () => boolean }).__back = goUp;
+onBackButton(goUp);
 
 export default function App(): JSX.Element {
   const depth = reader.lang ? (reader.book !== null ? 2 : 1) : 0;

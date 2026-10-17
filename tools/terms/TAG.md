@@ -3,8 +3,8 @@
 Read `SPEC.md` (token format) first. Worked example: `41-Mark/Mark01.md` in your
 language (tagged with the first, smaller lexicon; Mark gets a second pass too).
 
-Files: EN `/home/dev/code/gen/word/bible-kjv-v2/NN-Book/BookNN.md`, CZ
-`/home/dev/code/gen/word/bible-kjv-v2-cz/NN-Book/BookNN.md`. You do ONE language
+Files: EN `/home/dev/code/gen/word/bsv-en/NN-Book/BookNN.md`, CZ
+`/home/dev/code/gen/word/bsv-cz/NN-Book/BookNN.md`. You do ONE language
 of ONE book (or group); don't touch anything else.
 
 ## What to do

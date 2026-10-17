@@ -1,6 +1,6 @@
 # WORDS.md — conflicting rows (audit 2026-10-10, read-only)
 
-Source: `tools/fix/WORDS.md` (1352 table rows → 2461 lemma entries → 2164 distinct lemmas; 239 lemmas stand in more than one row, 26 more join through an active/middle or singular/plural variant). Text: `bible/word/bible-kjv-v2{,-cz}` books 40–66, Greek SBLGNT.
+Source: `tools/fix/WORDS.md` (1352 table rows → 2461 lemma entries → 2164 distinct lemmas; 239 lemmas stand in more than one row, 26 more join through an active/middle or singular/plural variant). Text: `bible/word/bsv-en{,-cz}` books 40–66, Greek SBLGNT.
 
 Counted as a **true conflict**: the same sense of one Greek word has two English or two Czech renderings in the rows, no later row withdraws either, and **both renderings stand in the text**. Not counted: a later row that corrects or withdraws; a different sense stated in the row; Czech aspect pairs (posvětit / posvěcovat); lemmas ruled in R1–R12 (μένω, γεννάω, πειράζω, σκάνδαλον, ἑταῖρος, σεληνιάζομαι, ἐπιστάτης, στέφανος, φωνὴ μεγάλη, διατάσσω, ὅσιος …).
 

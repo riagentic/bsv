@@ -1,8 +1,8 @@
-# Czech translation of bible-kjv-v2 — style guide (binding)
+# Czech translation of bsv-en — style guide (binding)
 
-Source: `/home/dev/code/gen/word/bible-kjv-v2/NN-Book/BookNN.md` (EN, the
+Source: `/home/dev/code/gen/word/bsv-en/NN-Book/BookNN.md` (EN, the
 author's own translation from Hebrew/Aramaic/Greek). Target:
-`/home/dev/code/gen/word/bible-kjv-v2-cz/NN-Book/BookNN.md` — same folders, same
+`/home/dev/code/gen/word/bsv-cz/NN-Book/BookNN.md` — same folders, same
 file names.
 
 ## 0. Goal
@@ -22,7 +22,7 @@ archaic, not Kralická style). Never add, drop, soften or sharpen meaning.
    - grammatical gender, number, verbal aspect (dokonavý/nedokonavý), who is
      speaking.
 3. If you believe the EN deviates from the original: DO NOT silently diverge.
-   Translate the EN faithfully and log it in the issues file (see §8).
+   Translate the EN faithfully and report it (see §8).
 
 ## 2. Names — keep them ORIGINAL (as spelled in EN), never Czech forms
 
@@ -121,9 +121,8 @@ summarising, no shortening of Změny/Poznámky.
 
 ## 8. Issues log
 
-Possible EN errors / deviations from the original, or hard calls: append one
-line each to `/home/dev/code/gen/word/bible-kjv-v2-cz/_issues/<batch-id>.md`:
-`- Gen 1:14 — <what, why> (EN kept)`.
+Possible EN errors / deviations from the original, or hard calls: list them
+in your final report, one line each: `- Gen 1:14 — <what, why> (EN kept)`.
 
 ## 9. Czech book names (heading `# <name> <N>`)
 

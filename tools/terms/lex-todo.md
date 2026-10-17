@@ -101,7 +101,7 @@
 - TEXT FIX: Gen 43:14, 48:3 "Almighty *Elohim*" = El Shaddai in MT (en+cz) → retag el-shaddai after fix
 - allow.d global so far: 03a-en Egyptian, 01a-en Aram, 01d-en Paddan
 - TEXT FIX: Gen 14 "Most High *Elohim*" = El Elyon; Gen 17:1, Exod 6:3 "Almighty *Elohim*" = El Shaddai
-- DELETE stray untracked word/bible-kjv-v2/03-Lev/Mark0[1-8].md (old git copies made by a job) after wave 1
+- DELETE stray untracked word/bsv-en/03-Lev/Mark0[1-8].md (old git copies made by a job) after wave 1
 - FOLLOW-UP tag mercy-seat: EN Exod 29–40 (10×, 02c-en skipped), Num 7:89 (04a-en skipped) — diff bug now fixed
 - CZ "Pascha" left untagged everywhere (fem. agreement vs Pesach masc.) — decide later: accept plain or retag with agreement-safe form
 - AFTER 01b/01c-cz: normalize pharaoh in Gen14–40 cz (Para→Paroha…, faraon→faraón); then delete 03-Lev/Mark0*.md strays; commit rib (check.ts scoped allow, el alt, ČEP fixes)

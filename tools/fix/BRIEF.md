@@ -24,8 +24,8 @@ Read first, in full; all are binding:
   `50-Phil/Phil02.md`
 
 Paths: rules under `/home/dev/code/gen/rib/`; EN chapters under
-`/home/dev/code/gen/word/bible-kjv-v2/`, CZ under
-`/home/dev/code/gen/word/bible-kjv-v2-cz/`. Run commands from
+`/home/dev/code/gen/word/bsv-en/`, CZ under
+`/home/dev/code/gen/word/bsv-cz/`. Run commands from
 `/home/dev/code/gen/rib`.
 
 Background: the current text was built on existing translations and carries

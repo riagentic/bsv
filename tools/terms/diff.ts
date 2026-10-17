@@ -5,7 +5,7 @@
 //       counted per pair, for review.
 import { TOKEN } from "../../src/lib/terms.ts";
 
-const ROOT = { en: "bible-kjv-v2", cz: "bible-kjv-v2-cz" } as const;
+const ROOT = { en: "bsv-en", cz: "bsv-cz" } as const;
 const [lang, ...files] = Deno.args as ["en" | "cz", ...string[]];
 const dir = `/home/dev/code/gen/word/${ROOT[lang]}`;
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

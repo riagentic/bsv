@@ -1,4 +1,4 @@
-// deno task text (last step) — text/{en,cz}/NN.md → dist/export/bible-<lang>-<mode>.md:
+// deno task text (last step) — text/{en,cz}/NN.md → dist/export/bsv-<lang>-<mode>.md:
 // the whole Bible as one plain Markdown file per language and names mode.
 import { join } from "@std/path";
 import { NAMES, type Names, pickForms, PLAIN } from "../src/lib/terms.ts";
@@ -29,7 +29,7 @@ for (const lang of ["en", "cz"] as const) {
   const md = books.map((b) => b.trim()).join("\n\n") + "\n";
   for (const mode of NAMES) {
     await Deno.writeTextFile(
-      join(OUT, `bible-${lang}-${LABEL[mode]}.md`),
+      join(OUT, `bsv-${lang}-${LABEL[mode]}.md`),
       pickForms(md, mode, (k) => byKey.get(k)?.[lang].orig, PLAIN),
     );
   }

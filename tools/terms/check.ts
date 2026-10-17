@@ -11,7 +11,7 @@ type Entry = {
   /** Extra accepted forms by context (NT "Pán" for yhwh); not leaks. */
   alt?: { en?: string[]; cz?: string[] };
 };
-const ROOT = { en: "bible-kjv-v2", cz: "bible-kjv-v2-cz" } as const;
+const ROOT = { en: "bsv-en", cz: "bsv-cz" } as const;
 const WORD = "/home/dev/code/gen/word";
 const CHANGES = /^## (?:Changes|Změny)\s*$/m;
 

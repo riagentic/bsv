@@ -6,4 +6,5 @@ import { aio } from "aio";
 await aio.run({
   assets: { "/text": "./text" },
   ui: { title: "Bible Source Version", width: 1000, height: 780 },
+  electron: { ignoreDebugEnv: true },
 });

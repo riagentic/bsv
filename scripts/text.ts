@@ -6,8 +6,8 @@ import { join } from "@std/path";
 type Book = { n: number; id: string; name: string; chapters: number };
 
 const SRC = {
-  en: "bible/word/bible-kjv-v2",
-  cz: "bible/word/bible-kjv-v2-cz",
+  en: "bible/word/bsv-en",
+  cz: "bible/word/bsv-cz",
 } as const;
 const OUTS = ["text", "android/app/src/main/assets/text"];
 
