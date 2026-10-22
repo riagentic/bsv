@@ -6,8 +6,12 @@
   "build": {
     "electronRuntime": "online",
     "targets": {
-      "electron": { "name": "bsv" },
-      "android": { "name": "bsv" }
+      "electron": {
+        "name": "bsv"
+      },
+      "android": {
+        "name": "bsv"
+      }
     },
     "platforms": [
       "host"
@@ -85,7 +89,8 @@
     "am": "deno run -A ./dep/aio/src/am.ts",
     "install:electron": "deno run -A ./dep/aio/src/electron-install.ts",
     "text": "deno run -A scripts/text.ts && deno run -A scripts/export.ts",
-    "icon": "deno run -A scripts/icon.ts"
+    "icon": "deno run -A scripts/icon.ts",
+    "install:android": "deno run -A ./dep/aio/src/android-install.ts"
   },
   "assets": {
     "/text": "./text"
