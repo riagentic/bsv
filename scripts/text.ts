@@ -5,9 +5,19 @@ import { join } from "@std/path";
 
 type Book = { n: number; id: string; name: string; chapters: number };
 
+// bible/word links to the sibling ../word checkout; git on Windows without symlink rights
+// checks the link out as a plain file, so fall back to the checkout itself
+const isDir = (p: string) => {
+  try {
+    return Deno.statSync(p).isDirectory;
+  } catch {
+    return false;
+  }
+};
+const WORD = isDir("bible/word") ? "bible/word" : "../word";
 const SRC = {
-  en: "bible/word/bsv-en",
-  cz: "bible/word/bsv-cz",
+  en: `${WORD}/bsv-en`,
+  cz: `${WORD}/bsv-cz`,
 } as const;
 const OUTS = ["text", "android/app/src/main/assets/text"];
 
