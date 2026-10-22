@@ -1,4 +1,4 @@
-// deno task text (last step) — text/{en,cz}/NN.md → dist/export/bsv-<lang>-<mode>.md:
+// deno task text (last step) — text/{en,cz}/NN.md → export/bsv-<lang>-<mode>.md:
 // the whole Bible as one plain Markdown file per language and names mode.
 import { join } from "@std/path";
 import { NAMES, type Names, pickForms, PLAIN } from "../src/lib/terms.ts";
@@ -6,7 +6,7 @@ import { NAMES, type Names, pickForms, PLAIN } from "../src/lib/terms.ts";
 type Lemma = { orig: string; trad: string };
 type Term = { key: string; en: Lemma; cz: Lemma };
 
-const OUT = "dist/export";
+const OUT = "export"; // not dist/: the build owns it and refuses foreign files there
 const LABEL: Record<Names, string> = {
   orig: "original",
   trad: "familiar",
